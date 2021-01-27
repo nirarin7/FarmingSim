@@ -1,0 +1,7592 @@
+fileFormatVersion: 2
+guid: fff7a1bc0bf3fe1449e09d111b25f060
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3382985073461190594
+    second: Simple Farm Packv12_0
+  - first:
+      213: -3038240228908484270
+    second: Simple Farm Packv12_1
+  - first:
+      213: -6961633325778840771
+    second: Simple Farm Packv12_2
+  - first:
+      213: 3497411884984551262
+    second: Simple Farm Packv12_3
+  - first:
+      213: 2398670812042716072
+    second: Simple Farm Packv12_4
+  - first:
+      213: -7776000808026978017
+    second: Simple Farm Packv12_5
+  - first:
+      213: 1801246093865656838
+    second: Simple Farm Packv12_6
+  - first:
+      213: -3855245512029434972
+    second: Simple Farm Packv12_7
+  - first:
+      213: -5287586365936339471
+    second: Simple Farm Packv12_8
+  - first:
+      213: -58315511307237672
+    second: Simple Farm Packv12_9
+  - first:
+      213: -331602446984806537
+    second: Simple Farm Packv12_10
+  - first:
+      213: -5560496599099788787
+    second: Simple Farm Packv12_11
+  - first:
+      213: -2910029339604850454
+    second: Simple Farm Packv12_12
+  - first:
+      213: -627885656877527648
+    second: Simple Farm Packv12_13
+  - first:
+      213: -5268218345309268746
+    second: Simple Farm Packv12_14
+  - first:
+      213: 241492701861719871
+    second: Simple Farm Packv12_15
+  - first:
+      213: 3309650526665140037
+    second: Simple Farm Packv12_16
+  - first:
+      213: 7266584930231299992
+    second: Simple Farm Packv12_17
+  - first:
+      213: -3027851239254463971
+    second: Simple Farm Packv12_18
+  - first:
+      213: 6791136118330471262
+    second: Simple Farm Packv12_19
+  - first:
+      213: -2553543357985079748
+    second: Simple Farm Packv12_20
+  - first:
+      213: -3000135791559375471
+    second: Simple Farm Packv12_21
+  - first:
+      213: 6763239584270825710
+    second: Simple Farm Packv12_22
+  - first:
+      213: -8892350555127147143
+    second: Simple Farm Packv12_23
+  - first:
+      213: 3129659223043388249
+    second: Simple Farm Packv12_24
+  - first:
+      213: -6685149105780896793
+    second: Simple Farm Packv12_25
+  - first:
+      213: -2146407093769027070
+    second: Simple Farm Packv12_26
+  - first:
+      213: -7232432933457423981
+    second: Simple Farm Packv12_27
+  - first:
+      213: 4854499349721036028
+    second: Simple Farm Packv12_28
+  - first:
+      213: -2341088394582649839
+    second: Simple Farm Packv12_29
+  - first:
+      213: 4488786207376755049
+    second: Simple Farm Packv12_30
+  - first:
+      213: -8854562252372419792
+    second: Simple Farm Packv12_31
+  - first:
+      213: 2457764722163308001
+    second: Simple Farm Packv12_32
+  - first:
+      213: 3573125514171180404
+    second: Simple Farm Packv12_33
+  - first:
+      213: 4877860046936302043
+    second: Simple Farm Packv12_34
+  - first:
+      213: 414836373017167540
+    second: Simple Farm Packv12_35
+  - first:
+      213: -3088978227379515834
+    second: Simple Farm Packv12_36
+  - first:
+      213: -5854786212323008743
+    second: Simple Farm Packv12_37
+  - first:
+      213: -8330796634250839938
+    second: Simple Farm Packv12_38
+  - first:
+      213: -7945165248927606671
+    second: Simple Farm Packv12_39
+  - first:
+      213: 1231135443311307367
+    second: Simple Farm Packv12_40
+  - first:
+      213: 4971549738281603843
+    second: Simple Farm Packv12_41
+  - first:
+      213: 7934050724169243448
+    second: Simple Farm Packv12_42
+  - first:
+      213: 7055885797876016272
+    second: Simple Farm Packv12_43
+  - first:
+      213: -6765612774006472302
+    second: Simple Farm Packv12_44
+  - first:
+      213: -4199038627370391795
+    second: Simple Farm Packv12_45
+  - first:
+      213: 737642820809494335
+    second: Simple Farm Packv12_46
+  - first:
+      213: -2286361700737131591
+    second: Simple Farm Packv12_47
+  - first:
+      213: 6069374862375355874
+    second: Simple Farm Packv12_48
+  - first:
+      213: -1166061527622484292
+    second: Simple Farm Packv12_49
+  - first:
+      213: 3567707211130618320
+    second: Simple Farm Packv12_50
+  - first:
+      213: -6894109611092153415
+    second: Simple Farm Packv12_51
+  - first:
+      213: -4905636472084303892
+    second: Simple Farm Packv12_52
+  - first:
+      213: -2867805321870333067
+    second: Simple Farm Packv12_53
+  - first:
+      213: 2723419473824185703
+    second: Simple Farm Packv12_54
+  - first:
+      213: -8409397321141118641
+    second: Simple Farm Packv12_55
+  - first:
+      213: -1636110048941601886
+    second: Simple Farm Packv12_56
+  - first:
+      213: 3507033651262108606
+    second: Simple Farm Packv12_57
+  - first:
+      213: -298016560607960881
+    second: Simple Farm Packv12_58
+  - first:
+      213: 4719152459370940994
+    second: Simple Farm Packv12_59
+  - first:
+      213: 3751448724906372680
+    second: Simple Farm Packv12_60
+  - first:
+      213: -3869649193301570897
+    second: Simple Farm Packv12_61
+  - first:
+      213: 8183131752289247039
+    second: Simple Farm Packv12_62
+  - first:
+      213: 6454451434625698965
+    second: Simple Farm Packv12_63
+  - first:
+      213: 3324397509062105653
+    second: Simple Farm Packv12_64
+  - first:
+      213: -5003375513433811737
+    second: Simple Farm Packv12_65
+  - first:
+      213: -4684891222289078032
+    second: Simple Farm Packv12_66
+  - first:
+      213: -8782007144886994875
+    second: Simple Farm Packv12_67
+  - first:
+      213: 313297215649463619
+    second: Simple Farm Packv12_68
+  - first:
+      213: 8775267904524364298
+    second: Simple Farm Packv12_69
+  - first:
+      213: 5699125637893669599
+    second: Simple Farm Packv12_70
+  - first:
+      213: 2933061863702039086
+    second: Simple Farm Packv12_71
+  - first:
+      213: 9141376035920959833
+    second: Simple Farm Packv12_72
+  - first:
+      213: 5085983458952211080
+    second: Simple Farm Packv12_73
+  - first:
+      213: 2597580016750398001
+    second: Simple Farm Packv12_74
+  - first:
+      213: -2222017003379504702
+    second: Simple Farm Packv12_75
+  - first:
+      213: 4426164958659517140
+    second: Simple Farm Packv12_76
+  - first:
+      213: -7943420173769515555
+    second: Simple Farm Packv12_77
+  - first:
+      213: -7318479178033681855
+    second: Simple Farm Packv12_78
+  - first:
+      213: 9191192846153434435
+    second: Simple Farm Packv12_79
+  - first:
+      213: 5858923407538487507
+    second: Simple Farm Packv12_80
+  - first:
+      213: -3455072888169367606
+    second: Simple Farm Packv12_81
+  - first:
+      213: -1601014892511928663
+    second: Simple Farm Packv12_82
+  - first:
+      213: 4708496656168202374
+    second: Simple Farm Packv12_83
+  - first:
+      213: -4403465088898714016
+    second: Simple Farm Packv12_84
+  - first:
+      213: -3544985850810575671
+    second: Simple Farm Packv12_85
+  - first:
+      213: -1448366324171382892
+    second: Simple Farm Packv12_86
+  - first:
+      213: -7928402291225304770
+    second: Simple Farm Packv12_87
+  - first:
+      213: 6928612148889887942
+    second: Simple Farm Packv12_88
+  - first:
+      213: -4167014435184606987
+    second: Simple Farm Packv12_89
+  - first:
+      213: 6040243274852322605
+    second: Simple Farm Packv12_90
+  - first:
+      213: -4784458534220674981
+    second: Simple Farm Packv12_91
+  - first:
+      213: 7047912287985289207
+    second: Simple Farm Packv12_92
+  - first:
+      213: -6111533236474568501
+    second: Simple Farm Packv12_93
+  - first:
+      213: 8419909526200914359
+    second: Simple Farm Packv12_94
+  - first:
+      213: 6134467287443359341
+    second: Simple Farm Packv12_95
+  - first:
+      213: 8686342346361907944
+    second: Simple Farm Packv12_96
+  - first:
+      213: -6051765390881051577
+    second: Simple Farm Packv12_97
+  - first:
+      213: -1610244882766969931
+    second: Simple Farm Packv12_98
+  - first:
+      213: 1134496535339736283
+    second: Simple Farm Packv12_99
+  - first:
+      213: -7903617585711078772
+    second: Simple Farm Packv12_100
+  - first:
+      213: -713316008717907055
+    second: Simple Farm Packv12_101
+  - first:
+      213: 1694494789069334399
+    second: Simple Farm Packv12_102
+  - first:
+      213: -8225153822279245913
+    second: Simple Farm Packv12_103
+  - first:
+      213: 700961162213853090
+    second: Simple Farm Packv12_104
+  - first:
+      213: -5858029866414651209
+    second: Simple Farm Packv12_105
+  - first:
+      213: 1838240147226152133
+    second: Simple Farm Packv12_106
+  - first:
+      213: -266459183713817978
+    second: Simple Farm Packv12_107
+  - first:
+      213: -7245991328359412093
+    second: Simple Farm Packv12_108
+  - first:
+      213: -3103827996418594710
+    second: Simple Farm Packv12_109
+  - first:
+      213: -1067008220202146273
+    second: Simple Farm Packv12_110
+  - first:
+      213: -5584798441814278273
+    second: Simple Farm Packv12_111
+  - first:
+      213: 3604424143160713131
+    second: Simple Farm Packv12_112
+  - first:
+      213: -6609845934136378475
+    second: Simple Farm Packv12_113
+  - first:
+      213: 4473602216372337492
+    second: Simple Farm Packv12_114
+  - first:
+      213: -4649984114709233101
+    second: Simple Farm Packv12_115
+  - first:
+      213: -3595820189009521445
+    second: Simple Farm Packv12_116
+  - first:
+      213: -7429453983063934776
+    second: Simple Farm Packv12_117
+  - first:
+      213: -5201906475499569569
+    second: Simple Farm Packv12_118
+  - first:
+      213: -8833070219417356591
+    second: Simple Farm Packv12_119
+  - first:
+      213: 8343145239870651292
+    second: Simple Farm Packv12_120
+  - first:
+      213: 7792605271564108796
+    second: Simple Farm Packv12_121
+  - first:
+      213: 3117889474464675439
+    second: Simple Farm Packv12_122
+  - first:
+      213: 124198240898632976
+    second: Simple Farm Packv12_123
+  - first:
+      213: -1483297226822629527
+    second: Simple Farm Packv12_124
+  - first:
+      213: 1657512623939010132
+    second: Simple Farm Packv12_125
+  - first:
+      213: -8578579312814441939
+    second: Simple Farm Packv12_126
+  - first:
+      213: 360946690203275683
+    second: Simple Farm Packv12_127
+  - first:
+      213: 6069289980124071389
+    second: Simple Farm Packv12_128
+  - first:
+      213: 5599991387394519972
+    second: Simple Farm Packv12_129
+  - first:
+      213: 3032033933569200782
+    second: Simple Farm Packv12_130
+  - first:
+      213: 8446416477539280327
+    second: Simple Farm Packv12_131
+  - first:
+      213: -2893976837514748470
+    second: Simple Farm Packv12_132
+  - first:
+      213: -7719463021224436794
+    second: Simple Farm Packv12_133
+  - first:
+      213: -5541239420238351541
+    second: Simple Farm Packv12_134
+  - first:
+      213: -2775554839386556647
+    second: Simple Farm Packv12_135
+  - first:
+      213: -733548759910508452
+    second: Simple Farm Packv12_136
+  - first:
+      213: 7090577822480373952
+    second: Simple Farm Packv12_137
+  - first:
+      213: -8269112436678314245
+    second: Simple Farm Packv12_138
+  - first:
+      213: 5212297767097061017
+    second: Simple Farm Packv12_139
+  - first:
+      213: 6682171676592760952
+    second: Simple Farm Packv12_140
+  - first:
+      213: -4483162931789572754
+    second: Simple Farm Packv12_150
+  - first:
+      213: -2240193538656243940
+    second: Simple Farm Packv12_151
+  - first:
+      213: 5566687923647266824
+    second: Simple Farm Packv12_152
+  - first:
+      213: 8211371222055692383
+    second: Simple Farm Packv12_153
+  - first:
+      213: -6609078425634572381
+    second: Simple Farm Packv12_154
+  - first:
+      213: -4443178524288888556
+    second: Simple Farm Packv12_155
+  - first:
+      213: 2492429276778980723
+    second: Simple Farm Packv12_156
+  - first:
+      213: 3801139615358751915
+    second: Simple Farm Packv12_157
+  - first:
+      213: 5815522886769525013
+    second: Simple Farm Packv12_158
+  - first:
+      213: -3551749731327914428
+    second: Simple Farm Packv12_159
+  - first:
+      213: -5991990821474754887
+    second: Simple Farm Packv12_160
+  - first:
+      213: -5964069492415743412
+    second: Simple Farm Packv12_161
+  - first:
+      213: -2377011771775511046
+    second: Simple Farm Packv12_162
+  - first:
+      213: 7844931770394409127
+    second: Simple Farm Packv12_163
+  - first:
+      213: 7043830273598648988
+    second: Simple Farm Packv12_164
+  - first:
+      213: -2934007184037764490
+    second: Simple Farm Packv12_166
+  - first:
+      213: -1717664520266310693
+    second: Simple Farm Packv12_167
+  - first:
+      213: -3605661613174973905
+    second: Simple Farm Packv12_168
+  - first:
+      213: 8390274161714292687
+    second: Simple Farm Packv12_169
+  - first:
+      213: 7483375023873236775
+    second: Simple Farm Packv12_170
+  - first:
+      213: 3864491785124407615
+    second: Simple Farm Packv12_171
+  - first:
+      213: 2526097023939493016
+    second: Simple Farm Packv12_172
+  - first:
+      213: -5853257261669159005
+    second: Simple Farm Packv12_173
+  - first:
+      213: -7548695879247347921
+    second: Simple Farm Packv12_174
+  - first:
+      213: 1508916763211490743
+    second: Simple Farm Packv12_175
+  - first:
+      213: -3432799651786334306
+    second: Simple Farm Packv12_176
+  - first:
+      213: 4466264396440920786
+    second: Simple Farm Packv12_177
+  - first:
+      213: 6090744095985316784
+    second: Simple Farm Packv12_178
+  - first:
+      213: 8015490634981990967
+    second: Simple Farm Packv12_179
+  - first:
+      213: -881313817210693213
+    second: Simple Farm Packv12_180
+  - first:
+      213: -8024593078728096316
+    second: Simple Farm Packv12_181
+  - first:
+      213: -4110834314393313154
+    second: Simple Farm Packv12_182
+  - first:
+      213: -4884354480987582621
+    second: Simple Farm Packv12_187
+  - first:
+      213: 2801463576936399231
+    second: Simple Farm Packv12_188
+  - first:
+      213: -4830218305934083226
+    second: Simple Farm Packv12_189
+  - first:
+      213: 472236437382248824
+    second: Simple Farm Packv12_190
+  - first:
+      213: -6977665142896328336
+    second: Simple Farm Packv12_191
+  - first:
+      213: -9019623964014852009
+    second: Simple Farm Packv12_192
+  - first:
+      213: -8003629819626138896
+    second: Simple Farm Packv12_193
+  - first:
+      213: -8871409577499122878
+    second: Simple Farm Packv12_194
+  - first:
+      213: 5989107144543872285
+    second: Simple Farm Packv12_195
+  - first:
+      213: 2269343381626648255
+    second: Simple Farm Packv12_196
+  - first:
+      213: 8186682514540695482
+    second: Simple Farm Packv12_197
+  - first:
+      213: 43039915984795584
+    second: Simple Farm Packv12_198
+  - first:
+      213: -2338008267398890862
+    second: Simple Farm Packv12_199
+  - first:
+      213: 4566953035036123437
+    second: Simple Farm Packv12_200
+  - first:
+      213: -2914911246215176741
+    second: Simple Farm Packv12_201
+  - first:
+      213: 8484539159974276836
+    second: Simple Farm Packv12_202
+  - first:
+      213: 4311487518469424107
+    second: Simple Farm Packv12_203
+  - first:
+      213: -7359739663137731658
+    second: Simple Farm Packv12_204
+  - first:
+      213: 6036934235876663803
+    second: Simple Farm Packv12_205
+  - first:
+      213: 6486614427804674941
+    second: Simple Farm Packv12_206
+  - first:
+      213: -6993549481039156405
+    second: Simple Farm Packv12_207
+  - first:
+      213: 8268062872132424823
+    second: Simple Farm Packv12_208
+  - first:
+      213: 6517879705367352678
+    second: Simple Farm Packv12_209
+  - first:
+      213: -908514075800370880
+    second: Simple Farm Packv12_210
+  - first:
+      213: 4029215005275398016
+    second: Simple Farm Packv12_211
+  - first:
+      213: 7089779334095968244
+    second: Simple Farm Packv12_212
+  - first:
+      213: -3638718490134991172
+    second: Simple Farm Packv12_213
+  - first:
+      213: 372665690502976227
+    second: Simple Farm Packv12_214
+  - first:
+      213: 8765881863069859657
+    second: Simple Farm Packv12_215
+  - first:
+      213: -4214025506537341462
+    second: Simple Farm Packv12_216
+  - first:
+      213: 9193363446095390627
+    second: Simple Farm Packv12_141
+  - first:
+      213: 2397881838706286095
+    second: Simple Farm Packv12_142
+  - first:
+      213: -5386989743593179986
+    second: Simple Farm Packv12_143
+  - first:
+      213: -7856101166799013999
+    second: Simple Farm Packv12_144
+  - first:
+      213: 3919267655235685497
+    second: Simple Farm Packv12_145
+  - first:
+      213: -7908668999715821019
+    second: Simple Farm Packv12_146
+  - first:
+      213: 2259500176133019938
+    second: Simple Farm Packv12_147
+  - first:
+      213: -1931973614599436832
+    second: Simple Farm Packv12_148
+  - first:
+      213: 7713003698820046587
+    second: Simple Farm Packv12_149
+  - first:
+      213: -5597741101079065413
+    second: Simple Farm Packv12_183
+  - first:
+      213: 940474490137990896
+    second: Simple Farm Packv12_184
+  - first:
+      213: -3022088334102658647
+    second: Simple Farm Packv12_185
+  - first:
+      213: -4799524456404895679
+    second: Simple Farm Packv12_186
+  - first:
+      213: -4615018781829488441
+    second: Simple Farm Packv12_217
+  - first:
+      213: 6660181334911862841
+    second: Simple Farm Packv12_218
+  - first:
+      213: -8426881244911142637
+    second: Simple Farm Packv12_219
+  - first:
+      213: 2243394077285370519
+    second: Simple Farm Packv12_220
+  - first:
+      213: -1591494540414486155
+    second: Simple Farm Packv12_221
+  - first:
+      213: -8479768172643131214
+    second: Simple Farm Packv12_222
+  - first:
+      213: -8444175790809017523
+    second: Simple Farm Packv12_223
+  - first:
+      213: -3759506852272252056
+    second: Simple Farm Packv12_224
+  - first:
+      213: -8552740096471727774
+    second: Simple Farm Packv12_225
+  - first:
+      213: -6395423896909664252
+    second: Simple Farm Packv12_226
+  - first:
+      213: 4043184082435771493
+    second: Simple Farm Packv12_227
+  - first:
+      213: -595733998031613995
+    second: Simple Farm Packv12_228
+  - first:
+      213: 4881885305924296996
+    second: Simple Farm Packv12_229
+  - first:
+      213: 250960501384339026
+    second: Simple Farm Packv12_230
+  - first:
+      213: -7880224004949645681
+    second: Simple Farm Packv12_231
+  - first:
+      213: -5999701643110245524
+    second: Simple Farm Packv12_232
+  - first:
+      213: -1295713170933556918
+    second: Simple Farm Packv12_233
+  - first:
+      213: -5199499306944234046
+    second: Simple Farm Packv12_234
+  - first:
+      213: -9003556899694196674
+    second: Simple Farm Packv12_235
+  - first:
+      213: 2130396852158990349
+    second: Simple Farm Packv12_236
+  - first:
+      213: 5725376589488698270
+    second: Simple Farm Packv12_237
+  - first:
+      213: 8537626257903311939
+    second: Simple Farm Packv12_238
+  - first:
+      213: -6258462888079353483
+    second: Simple Farm Packv12_239
+  - first:
+      213: 803312711807545697
+    second: Simple Farm Packv12_240
+  - first:
+      213: 6823090885861180592
+    second: Simple Farm Packv12_241
+  - first:
+      213: 3478989052339127389
+    second: Simple Farm Packv12_242
+  - first:
+      213: 2961465540594186668
+    second: Simple Farm Packv12_243
+  - first:
+      213: -6694290830066073889
+    second: Simple Farm Packv12_244
+  - first:
+      213: -7476505161104037552
+    second: Simple Farm Packv12_245
+  - first:
+      213: -10545270472548953
+    second: Simple Farm Packv12_246
+  - first:
+      213: -8057872864391306564
+    second: Simple Farm Packv12_247
+  - first:
+      213: -5775114179026678048
+    second: Simple Farm Packv12_248
+  - first:
+      213: 5223568671437985002
+    second: Simple Farm Packv12_249
+  - first:
+      213: 8417315176672642681
+    second: Simple Farm Packv12_250
+  - first:
+      213: 5784254698653759745
+    second: Simple Farm Packv12_251
+  - first:
+      213: 5291066952045861131
+    second: Simple Farm Packv12_252
+  - first:
+      213: 4460606972618682915
+    second: Simple Farm Packv12_253
+  - first:
+      213: -2321232400203858969
+    second: Simple Farm Packv12_254
+  - first:
+      213: 4697882936968308325
+    second: Simple Farm Packv12_255
+  - first:
+      213: 8849947615242354944
+    second: Simple Farm Packv12_256
+  - first:
+      213: -7022597781089369400
+    second: Simple Farm Packv12_257
+  - first:
+      213: 927139093755833965
+    second: Simple Farm Packv12_258
+  - first:
+      213: -2403876728108144199
+    second: Simple Farm Packv12_259
+  - first:
+      213: 6832815497223167614
+    second: Simple Farm Packv12_260
+  - first:
+      213: -441400240372208444
+    second: Simple Farm Packv12_261
+  - first:
+      213: -2730316218672057306
+    second: Simple Farm Packv12_262
+  - first:
+      213: 8633530396170418196
+    second: Simple Farm Packv12_263
+  - first:
+      213: 113731786382289049
+    second: Simple Farm Packv12_264
+  - first:
+      213: 2232962375021019766
+    second: Simple Farm Packv12_265
+  - first:
+      213: -2785284932129187368
+    second: Simple Farm Packv12_266
+  - first:
+      213: 937724515547157800
+    second: Simple Farm Packv12_267
+  - first:
+      213: -5905385998908142371
+    second: Simple Farm Packv12_268
+  - first:
+      213: 3909719972491877475
+    second: Simple Farm Packv12_269
+  - first:
+      213: -6909877799835441363
+    second: Simple Farm Packv12_270
+  - first:
+      213: -7712572596278605029
+    second: Simple Farm Packv12_271
+  - first:
+      213: 6941890430115248107
+    second: Simple Farm Packv12_272
+  - first:
+      213: -7483410359918502951
+    second: Simple Farm Packv12_273
+  - first:
+      213: -5715279957387524443
+    second: Simple Farm Packv12_274
+  - first:
+      213: -4745217309735180964
+    second: Simple Farm Packv12_275
+  - first:
+      213: -2343964565762571011
+    second: Simple Farm Packv12_276
+  - first:
+      213: 4122256455989314433
+    second: Simple Farm Packv12_277
+  - first:
+      213: -3860698486829749460
+    second: Simple Farm Packv12_278
+  - first:
+      213: -5922867483134757540
+    second: Simple Farm Packv12_279
+  - first:
+      213: -6472244383240854837
+    second: Simple Farm Packv12_280
+  - first:
+      213: 606047734994734140
+    second: Simple Farm Packv12_281
+  - first:
+      213: -3042170037311220169
+    second: Simple Farm Packv12_282
+  - first:
+      213: 3373569424007977079
+    second: Simple Farm Packv12_283
+  - first:
+      213: 2709857018377466109
+    second: Simple Farm Packv12_284
+  - first:
+      213: 2016612446861952649
+    second: Simple Farm Packv12_285
+  - first:
+      213: 3444518283413855031
+    second: Simple Farm Packv12_286
+  - first:
+      213: 8640939857816282574
+    second: Simple Farm Packv12_287
+  - first:
+      213: 2950594081137068526
+    second: Simple Farm Packv12_288
+  - first:
+      213: -8887591916585403369
+    second: Simple Farm Packv12_289
+  - first:
+      213: 1512935349267101283
+    second: Simple Farm Packv12_290
+  - first:
+      213: 3578456690825102096
+    second: Simple Farm Packv12_291
+  - first:
+      213: -7255359162916441038
+    second: Simple Farm Packv12_292
+  - first:
+      213: 4818414061672041688
+    second: Simple Farm Packv12_293
+  - first:
+      213: 2785463730149353162
+    second: Simple Farm Packv12_294
+  - first:
+      213: -1262716047735303729
+    second: Simple Farm Packv12_295
+  - first:
+      213: -6230102049210607116
+    second: Simple Farm Packv12_296
+  - first:
+      213: 1752492923188112400
+    second: Simple Farm Packv12_297
+  - first:
+      213: 1329301743719026886
+    second: Simple Farm Packv12_298
+  - first:
+      213: 7771990150838293636
+    second: Simple Farm Packv12_299
+  - first:
+      213: -6646840448525444664
+    second: Simple Farm Packv12_300
+  - first:
+      213: -3354120303030172670
+    second: Simple Farm Packv12_301
+  - first:
+      213: -5129774159839216363
+    second: Simple Farm Packv12_302
+  - first:
+      213: -1751965704248796249
+    second: Simple Farm Packv12_303
+  - first:
+      213: -1079475748277003874
+    second: Simple Farm Packv12_165
+  - first:
+      213: -7528740561996601250
+    second: Simple Farm Packv12_304
+  - first:
+      213: 3737400344712149879
+    second: Simple Farm Packv12_305
+  - first:
+      213: -2942376992419729402
+    second: Simple Farm Packv12_306
+  - first:
+      213: -8600997888729162817
+    second: Simple Farm Packv12_307
+  - first:
+      213: 8970451092127617828
+    second: Simple Farm Packv12_308
+  - first:
+      213: 6708765464056356315
+    second: Simple Farm Packv12_309
+  - first:
+      213: 62111477950659611
+    second: Simple Farm Packv12_310
+  - first:
+      213: 8843758456813794990
+    second: Simple Farm Packv12_311
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Simple Farm Packv12_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 496
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e30a5efdff83d01d0800000000000000
+      internalID: -3382985073461190594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_1
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 448
+        width: 54
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 259bb9deb9006d5d0800000000000000
+      internalID: -3038240228908484270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_2
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 480
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d335e60ef5f436f90800000000000000
+      internalID: -6961633325778840771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_3
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 480
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e57cbbd449d498030800000000000000
+      internalID: 3497411884984551262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_4
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 480
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a367e4156ac94120800000000000000
+      internalID: 2398670812042716072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_5
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 480
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f19c660d678161490800000000000000
+      internalID: -7776000808026978017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_6
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 481
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6022ce967cf4ff810800000000000000
+      internalID: 1801246093865656838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_7
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 481
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ab019df1aa6f7ac0800000000000000
+      internalID: -3855245512029434972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_8
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 481
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f57a2b0738be96b0800000000000000
+      internalID: -5287586365936339471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_9
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 481
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d603a7f952d03ff0800000000000000
+      internalID: -58315511307237672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_10
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 450
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77ff1d4d459e56bf0800000000000000
+      internalID: -331602446984806537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_11
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 450
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d02b3ebcdc525d2b0800000000000000
+      internalID: -5560496599099788787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_12
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 451
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae863eecbbf7d97d0800000000000000
+      internalID: -2910029339604850454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_13
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 451
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ad804e525d4947f0800000000000000
+      internalID: -627885656877527648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_14
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 451
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f415a0c35783e6b0800000000000000
+      internalID: -5268218345309268746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_15
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 448
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3f21563554f95300800000000000000
+      internalID: 241492701861719871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_16
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 448
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5476f846e9d3eed20800000000000000
+      internalID: 3309650526665140037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_17
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 448
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89fa4a87e7818d460800000000000000
+      internalID: 7266584930231299992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_18
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 448
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1ae2831759eaf5d0800000000000000
+      internalID: -3027851239254463971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_19
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 448
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e53b9629156fe3e50800000000000000
+      internalID: 6791136118330471262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_20
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 448
+        width: 31
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3ebdbc58ddff8cd0800000000000000
+      internalID: -2553543357985079748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_21
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 448
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1950b2a94606d56d0800000000000000
+      internalID: -3000135791559375471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_22
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 432
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee8b257919adbdd50800000000000000
+      internalID: 6763239584270825710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_23
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 432
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9751667a846089480800000000000000
+      internalID: -8892350555127147143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_24
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 432
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 953b6815b78ce6b20800000000000000
+      internalID: 3129659223043388249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_25
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 432
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ebc867ce449933a0800000000000000
+      internalID: -6685149105780896793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_26
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 432
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 202c480de1e6632e0800000000000000
+      internalID: -2146407093769027070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_27
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 432
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3911f6be09c31ab90800000000000000
+      internalID: -7232432933457423981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_28
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 432
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf4bc763075ae5340800000000000000
+      internalID: 4854499349721036028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_29
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 432
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1149c1d3288c28fd0800000000000000
+      internalID: -2341088394582649839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_30
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 432
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9694d53e54f5b4e30800000000000000
+      internalID: 4488786207376755049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_31
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 434
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03b52c18b864e1580800000000000000
+      internalID: -8854562252372419792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_32
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 432
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e5d7063efbbb1220800000000000000
+      internalID: 2457764722163308001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_33
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 432
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 475ee0259ba469130800000000000000
+      internalID: 3573125514171180404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_34
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 416
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd165b16ed3a1b340800000000000000
+      internalID: 4877860046936302043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_35
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 416
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b6899dbb7bc1c500800000000000000
+      internalID: 414836373017167540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_36
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 416
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64ec0261baeb125d0800000000000000
+      internalID: -3088978227379515834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_37
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 416
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91fd1aab5fe9fbea0800000000000000
+      internalID: -5854786212323008743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_38
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 416
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e78757f7990136c80800000000000000
+      internalID: -8330796634250839938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_39
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 416
+        width: 31
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17854e72d4a1db190800000000000000
+      internalID: -7945165248927606671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_40
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 416
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76aa6f0b92fd51110800000000000000
+      internalID: 1231135443311307367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_41
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 416
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3031675852e7ef440800000000000000
+      internalID: 4971549738281603843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_42
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 416
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83bd904e8196b1e60800000000000000
+      internalID: 7934050724169243448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_43
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 416
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 094af1edfba8be160800000000000000
+      internalID: 7055885797876016272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_44
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 416
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 291cf7d1707bb12a0800000000000000
+      internalID: -6765612774006472302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_45
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 416
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d07a179ad940ab5c0800000000000000
+      internalID: -4199038627370391795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_46
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 416
+        width: 9
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3f8771cc32ac3a00800000000000000
+      internalID: 737642820809494335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_47
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 416
+        width: 32
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bb518795263540e0800000000000000
+      internalID: -2286361700737131591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_48
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 416
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e58198c740ca3450800000000000000
+      internalID: 6069374862375355874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_49
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 416
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbeffcbf73151dfe0800000000000000
+      internalID: -1166061527622484292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_50
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 400
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d14a065eca038130800000000000000
+      internalID: 3567707211130618320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_51
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 400
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bbee34d5d33350a0800000000000000
+      internalID: -6894109611092153415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_52
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 400
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cefe63cae9dabebb0800000000000000
+      internalID: -4905636472084303892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_53
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 400
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57ba1f801428338d0800000000000000
+      internalID: -2867805321870333067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_54
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 405
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76dfba705978bc520800000000000000
+      internalID: 2723419473824185703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_55
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 400
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f49134af0b1db4b80800000000000000
+      internalID: -8409397321141118641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_56
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 384
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ab8367349e5b49e0800000000000000
+      internalID: -1636110048941601886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_57
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 384
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb3b1d6568c7ba030800000000000000
+      internalID: 3507033651262108606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_58
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 384
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc067cf548b3ddbf0800000000000000
+      internalID: -298016560607960881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_59
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 384
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24a47bd982ccd7140800000000000000
+      internalID: 4719152459370940994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_60
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 384
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84ee2214db2df0430800000000000000
+      internalID: 3751448724906372680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_61
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 384
+        width: 31
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faa02eb9f8e3c4ac0800000000000000
+      internalID: -3869649193301570897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_62
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 400
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3f9b6df8f2509170800000000000000
+      internalID: 8183131752289247039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_63
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 400
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59c00e4f161d29950800000000000000
+      internalID: 6454451434625698965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_64
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 400
+        width: 9
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53a17dbcbe1a22e20800000000000000
+      internalID: 3324397509062105653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_65
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 384
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e4d3e3ca70709ab0800000000000000
+      internalID: -5003375513433811737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_66
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 400
+        width: 9
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f82d14414cebfeb0800000000000000
+      internalID: -4684891222289078032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_67
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 384
+        width: 5
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5487112e70b002680800000000000000
+      internalID: -8782007144886994875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_68
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 384
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34db7ef582e095400800000000000000
+      internalID: 313297215649463619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_69
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 384
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0aaf027aa308c970800000000000000
+      internalID: 8775267904524364298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_70
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 384
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd249f8829c571f40800000000000000
+      internalID: 5699125637893669599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_71
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 384
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2a843a993454b820800000000000000
+      internalID: 2933061863702039086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_72
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 384
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95956535211bcde70800000000000000
+      internalID: 9141376035920959833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_73
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 384
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88aeb5c520b059640800000000000000
+      internalID: 5085983458952211080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_74
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 352
+        width: 28
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13a8f0e33457c0420800000000000000
+      internalID: 2597580016750398001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_75
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 384
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c9cfa4ee4fc921e0800000000000000
+      internalID: -2222017003379504702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_76
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 352
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4da9e2e3495ec6d30800000000000000
+      internalID: 4426164958659517140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_77
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 352
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddddbc0207d43c190800000000000000
+      internalID: -7943420173769515555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_78
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 352
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14aa53966f98f6a90800000000000000
+      internalID: -7318479178033681855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_79
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 352
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3454611523dad8f70800000000000000
+      internalID: 9191192846153434435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_80
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 352
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d08d881cc31f4150800000000000000
+      internalID: 5858923407538487507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_81
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 352
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac7f493938d1d00d0800000000000000
+      internalID: -3455072888169367606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_82
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 352
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ae57b3107d08c9e0800000000000000
+      internalID: -1601014892511928663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_83
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 352
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 680350913c0f75140800000000000000
+      internalID: 4708496656168202374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_84
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 336
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 066bb5b05dfb3e2c0800000000000000
+      internalID: -4403465088898714016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_85
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 351
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c456ac962eadcec0800000000000000
+      internalID: -3544985850810575671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_86
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 338
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49f502f708e56ebe0800000000000000
+      internalID: -1448366324171382892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_87
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 338
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e316f136f18a8f190800000000000000
+      internalID: -7928402291225304770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_88
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 338
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c4a9014a00672060800000000000000
+      internalID: 6928612148889887942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_89
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 338
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f085e0f27acb26c0800000000000000
+      internalID: -4167014435184606987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_90
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 336
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2dc382814143d350800000000000000
+      internalID: 6040243274852322605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_91
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 322
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b58c031ff403a9db0800000000000000
+      internalID: -4784458534220674981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_92
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 322
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f7497d62e63fc160800000000000000
+      internalID: 7047912287985289207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_93
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 322
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc0a0f6d6e87f2ba0800000000000000
+      internalID: -6111533236474568501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_94
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 322
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b1122e7a1789d470800000000000000
+      internalID: 8419909526200914359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_95
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 320
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d66c0520f71022550800000000000000
+      internalID: 6134467287443359341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_96
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 320
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eaa55087561c8870800000000000000
+      internalID: 8686342346361907944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_97
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 320
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74c288cc07fc30ca0800000000000000
+      internalID: -6051765390881051577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_98
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 320
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b3c8418fc247a9e0800000000000000
+      internalID: -1610244882766969931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_99
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 320
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdc16db869a8ebf00800000000000000
+      internalID: 1134496535339736283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_100
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 320
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8229235ea5b05290800000000000000
+      internalID: -7903617585711078772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_101
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 304
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19b05cf8edac916f0800000000000000
+      internalID: -713316008717907055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_102
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 304
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f776a38680e048710800000000000000
+      internalID: 1694494789069334399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_103
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 304
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7af59186d226add80800000000000000
+      internalID: -8225153822279245913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_104
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 304
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a70a1396705ab900800000000000000
+      internalID: 700961162213853090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_105
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 304
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b8c9b8afd814bea0800000000000000
+      internalID: -5858029866414651209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_106
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 305
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ccc64bacadb28910800000000000000
+      internalID: 1838240147226152133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_107
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 304
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68ae89fb8c85d4cf0800000000000000
+      internalID: -266459183713817978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_108
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 304
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38e839b1741117b90800000000000000
+      internalID: -7245991328359412093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_109
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 304
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a68ae8dc1ecfce4d0800000000000000
+      internalID: -3103827996418594710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_110
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 304
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f16ed6e4da93131f0800000000000000
+      internalID: -1067008220202146273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_111
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 304
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7f318d186fce72b0800000000000000
+      internalID: -5584798441814278273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_112
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 304
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baf9fe049ac750230800000000000000
+      internalID: 3604424143160713131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_113
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 304
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59bbdb3b42c1544a0800000000000000
+      internalID: -6609845934136378475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_114
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 288
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45bf54d738d651e30800000000000000
+      internalID: 4473602216372337492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_115
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 288
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3320c879510f77fb0800000000000000
+      internalID: -4649984114709233101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_116
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 288
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd4d8ede694191ec0800000000000000
+      internalID: -3595820189009521445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_117
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 288
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c8fc5027f645e890800000000000000
+      internalID: -7429453983063934776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_118
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 276
+        width: 10
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5e3b051f9d1fc7b0800000000000000
+      internalID: -5201906475499569569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_119
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 288
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d6fb8f5f61aa6580800000000000000
+      internalID: -8833070219417356591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_120
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 288
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9b3bfb446ec8c370800000000000000
+      internalID: 8343145239870651292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_121
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 288
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf34a6e1535e42c60800000000000000
+      internalID: 7792605271564108796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_122
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 288
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f66756e25f7f44b20800000000000000
+      internalID: 3117889474464675439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_123
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 288
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01dcd7e54ad39b100800000000000000
+      internalID: 124198240898632976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_124
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 288
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9674ae2f7054a6be0800000000000000
+      internalID: -1483297226822629527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_125
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 288
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45e3c9813faa00710800000000000000
+      internalID: 1657512623939010132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_126
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 272
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2a3e26f093c2f880800000000000000
+      internalID: -8578579312814441939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_127
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 272
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a15b643a17520500800000000000000
+      internalID: 360946690203275683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_128
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 272
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd5022894137a3450800000000000000
+      internalID: 6069289980124071389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_129
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 272
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a3b5ee2f7a27bd40800000000000000
+      internalID: 5599991387394519972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_130
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 276
+        width: 10
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8292555cc2f31a20800000000000000
+      internalID: 3032033933569200782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_131
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 272
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c52cb80903b73570800000000000000
+      internalID: 8446416477539280327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_132
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 273
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acd99b3366786d7d0800000000000000
+      internalID: -2893976837514748470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_133
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 272
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cb572b1845fed490800000000000000
+      internalID: -7719463021224436794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_134
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 273
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b433d452b109913b0800000000000000
+      internalID: -5541239420238351541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_135
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 272
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9177fbf349f3b79d0800000000000000
+      internalID: -2775554839386556647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_136
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 273
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c581b141a49e1d5f0800000000000000
+      internalID: -733548759910508452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_137
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 272
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c8943946fac66260800000000000000
+      internalID: 7090577822480373952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_138
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 272
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf6360cec063e3d80800000000000000
+      internalID: -8269112436678314245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_139
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 272
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99ec167043dc55840800000000000000
+      internalID: 5212297767097061017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_140
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 273
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 878ec777cb7dbbc50800000000000000
+      internalID: 6682171676592760952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_150
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 256
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e65db7cf01b98c1c0800000000000000
+      internalID: -4483162931789572754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_151
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 256
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1fe44c78db39e0e0800000000000000
+      internalID: -2240193538656243940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_152
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 256
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 800c3784c29d04d40800000000000000
+      internalID: 5566687923647266824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_153
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 256
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f58ae79ee96a4f170800000000000000
+      internalID: 8211371222055692383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_154
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 256
+        width: 9
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a77a533036d744a0800000000000000
+      internalID: -6609078425634572381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_155
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 256
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 411dd125ca8a652c0800000000000000
+      internalID: -4443178524288888556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_156
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 256
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 375e136c833e69220800000000000000
+      internalID: 2492429276778980723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_157
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 256
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba49f13475c50c430800000000000000
+      internalID: 3801139615358751915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_158
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 256
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5114d09e043e4b050800000000000000
+      internalID: 5815522886769525013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_159
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 256
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44e4c15ff66a5bec0800000000000000
+      internalID: -3551749731327914428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_160
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 240
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9be9894481c28dca0800000000000000
+      internalID: -5991990821474754887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_161
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 240
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4ab0d8456e5b3da0800000000000000
+      internalID: -5964069492415743412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_162
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 241
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af516643368230fd0800000000000000
+      internalID: -2377011771775511046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_163
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 244
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a8f88581ebcedc60800000000000000
+      internalID: 7844931770394409127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_164
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c927df36056b0c160800000000000000
+      internalID: 7043830273598648988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_166
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 224
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6722cfad2005847d0800000000000000
+      internalID: -2934007184037764490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_167
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 224
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdb1c3a2831a928e0800000000000000
+      internalID: -1717664520266310693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_168
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 224
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2a917ecddd16fdc0800000000000000
+      internalID: -3605661613174973905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_169
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc76e1185ed307470800000000000000
+      internalID: 8390274161714292687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_170
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 208
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72f9ef28fe94ad760800000000000000
+      internalID: 7483375023873236775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_171
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3961c9bdce61a530800000000000000
+      internalID: 3864491785124407615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_172
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 192
+        width: 29
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89cb5140cdf7e0320800000000000000
+      internalID: 2526097023939493016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_173
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 192
+        width: 29
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3afeb3b488d05cea0800000000000000
+      internalID: -5853257261669159005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_174
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 192
+        width: 29
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2fb100b715ad3790800000000000000
+      internalID: -7548695879247347921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_175
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 177
+        width: 28
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b56ad23dcfb0f410800000000000000
+      internalID: 1508916763211490743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_176
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 192
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9fd03a87ee3c50d0800000000000000
+      internalID: -3432799651786334306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_177
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d2e5d62ecb5bfd30800000000000000
+      internalID: 4466264396440920786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_178
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 192
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b333033c7ba68450800000000000000
+      internalID: 6090744095985316784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_179
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 160
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 732629eb34ebc3f60800000000000000
+      internalID: 8015490634981990967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_180
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 128
+        width: 32
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a9538da0c1f4c3f0800000000000000
+      internalID: -881313817210693213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_181
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 128
+        width: 32
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c58a5b6c1be2a090800000000000000
+      internalID: -8024593078728096316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_182
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 112
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e70a910a8f163f6c0800000000000000
+      internalID: -4110834314393313154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_187
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 32
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36fc5ab5a79473cb0800000000000000
+      internalID: -4884354480987582621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_188
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 32
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f714d7ac74cc0e620800000000000000
+      internalID: 2801463576936399231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_189
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 80
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66bb537da0e97fcb0800000000000000
+      internalID: -4830218305934083226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_190
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 80
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8793a2ca988bd8600800000000000000
+      internalID: 472236437382248824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_191
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0710a04958a5a2f90800000000000000
+      internalID: -6977665142896328336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_192
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 80
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7584b41facbd3d280800000000000000
+      internalID: -9019623964014852009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_193
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 80
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f2d57785156de090800000000000000
+      internalID: -8003629819626138896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_194
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 64
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 243aa24fdfb62e480800000000000000
+      internalID: -8871409577499122878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_195
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 64
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d15aa4067359d1350800000000000000
+      internalID: 5989107144543872285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_196
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb67d3738c35e7f10800000000000000
+      internalID: 2269343381626648255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_197
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 64
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abf89104f50fc9170800000000000000
+      internalID: 8186682514540695482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_198
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 64
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c7bf675398e89000800000000000000
+      internalID: 43039915984795584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_199
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 48
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29a33cb3ed9bd8fd0800000000000000
+      internalID: -2338008267398890862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_200
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d21683fa693116f30800000000000000
+      internalID: 4566953035036123437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_201
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 48
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdd9d895aa72c87d0800000000000000
+      internalID: -2914911246215176741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_202
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 48
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ee6829b9632fb570800000000000000
+      internalID: 8484539159974276836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_203
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be386e70e0b75db30800000000000000
+      internalID: 4311487518469424107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_204
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 32
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bb825b15c3fcd990800000000000000
+      internalID: -7359739663137731658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_205
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf1a2d5d3bf77c350800000000000000
+      internalID: 6036934235876663803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_206
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 32
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7ba83c5475150a50800000000000000
+      internalID: 6486614427804674941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_207
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 32
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4b2b87eccbe1fe90800000000000000
+      internalID: -6993549481039156405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_208
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 16
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7749c0a406f0eb270800000000000000
+      internalID: 8268062872132424823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_209
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 665162f0f09247a50800000000000000
+      internalID: 6517879705367352678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_210
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 16
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0410a76f24f4463f0800000000000000
+      internalID: -908514075800370880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_211
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 16
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08f1d1913b5aae730800000000000000
+      internalID: 4029215005275398016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_212
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 80
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f712b8bdb4f36260800000000000000
+      internalID: 7089779334095968244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_213
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 0
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbeabdddfcca08dc0800000000000000
+      internalID: -3638718490134991172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_214
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e2d7669879fb2500800000000000000
+      internalID: 372665690502976227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_215
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 0
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94f715f5c1ba6a970800000000000000
+      internalID: 8765881863069859657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_216
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 0
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aedf760f026c485c0800000000000000
+      internalID: -4214025506537341462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_141
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a7a39f7853659f70800000000000000
+      internalID: 9193363446095390627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_142
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0ed279e3dcf64120800000000000000
+      internalID: 2397881838706286095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_143
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea4b474ae519d35b0800000000000000
+      internalID: -5386989743593179986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_144
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 197b969bc9589f290800000000000000
+      internalID: -7856101166799013999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_145
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97c4002da29046630800000000000000
+      internalID: 3919267655235685497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_146
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52a6bc95273ce3290800000000000000
+      internalID: -7908668999715821019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_147
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2295758507b5b5f10800000000000000
+      internalID: 2259500176133019938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_148
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e58f5acb304035e0800000000000000
+      internalID: -1931973614599436832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_149
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 351
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfe5173bff71a0b60800000000000000
+      internalID: 7713003698820046587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_183
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 336
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbc049d6024d052b0800000000000000
+      internalID: -5597741101079065413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_184
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 320
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f6ddf0e09c3d0d00800000000000000
+      internalID: 940474490137990896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_185
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 320
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a185fdfba26f06d0800000000000000
+      internalID: -3022088334102658647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_186
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 304
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 148bf259fe9a46db0800000000000000
+      internalID: -4799524456404895679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_217
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 304
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c02c4d8ed824ffb0800000000000000
+      internalID: -4615018781829488441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_218
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 384
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 938cb1f03a7bd6c50800000000000000
+      internalID: 6660181334911862841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_219
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 416
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3197ba0c724bd0b80800000000000000
+      internalID: -8426881244911142637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_220
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 448
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79a4fcbf603222f10800000000000000
+      internalID: 2243394077285370519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_221
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 400
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 579fe98c520e9e9e0800000000000000
+      internalID: -1591494540414486155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_222
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 400
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b061f356cfc15a80800000000000000
+      internalID: -8479768172643131214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_223
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 384
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4310ef7bd240da80800000000000000
+      internalID: -8444175790809017523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_224
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 432
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86b5aa3cf6c83dbc0800000000000000
+      internalID: -3759506852272252056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_225
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 464
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 261009552309e4980800000000000000
+      internalID: -8552740096471727774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_226
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 480
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 400b7a4a9d3ee37a0800000000000000
+      internalID: -6395423896909664252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_227
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 496
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56c091350864c1830800000000000000
+      internalID: 4043184082435771493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_228
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 496
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dfc3bac5178bb7f0800000000000000
+      internalID: -595733998031613995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_229
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 464
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42121d502d0ffb340800000000000000
+      internalID: 4881885305924296996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_230
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 464
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25edaa11f379b7300800000000000000
+      internalID: 250960501384339026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_231
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 464
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f86687ac402d3a290800000000000000
+      internalID: -7880224004949645681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_232
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 496
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6b1614b427ccbca0800000000000000
+      internalID: -5999701643110245524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_233
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 480
+        width: 4
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a49d5bb6cb3b40ee0800000000000000
+      internalID: -1295713170933556918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_234
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 464
+        width: 32
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cdf2bfadeaa7d7b0800000000000000
+      internalID: -5199499306944234046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_235
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 464
+        width: 32
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e38c5bed3b0fc0380800000000000000
+      internalID: -9003556899694196674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_236
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 464
+        width: 32
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d080c8356a0b09d10800000000000000
+      internalID: 2130396852158990349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_237
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 464
+        width: 32
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e93bfcd7caf947f40800000000000000
+      internalID: 5725376589488698270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_238
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 256
+        width: 9
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34cdf57e8ddbb7670800000000000000
+      internalID: 8537626257903311939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_239
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 288
+        width: 6
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 579901c79297529a0800000000000000
+      internalID: -6258462888079353483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_240
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 288
+        width: 8
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16138deb7a0f52b00800000000000000
+      internalID: 803312711807545697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_241
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 304
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b406f9a20d70be50800000000000000
+      internalID: 6823090885861180592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_242
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 304
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5485225c1ad74030800000000000000
+      internalID: 3478989052339127389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_243
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 304
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca93da9f73d391920800000000000000
+      internalID: 2961465540594186668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_244
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 288
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdeb1ca35f91913a0800000000000000
+      internalID: -6694290830066073889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_245
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 288
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 059e40f0b2e1e3890800000000000000
+      internalID: -7476505161104037552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_246
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 288
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ad5c63e1298adff0800000000000000
+      internalID: -10545270472548953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_247
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 272
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb262b0825fac2090800000000000000
+      internalID: -8057872864391306564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_248
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 272
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ee0bc5804caadfa0800000000000000
+      internalID: -5775114179026678048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_249
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 272
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae49be0f708dd7840800000000000000
+      internalID: 5223568671437985002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_250
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 256
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 976c31c6e8f40d470800000000000000
+      internalID: 8417315176672642681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_251
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 256
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10934ab800dc54050800000000000000
+      internalID: 5784254698653759745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_252
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b09908f0c55ad6940800000000000000
+      internalID: 5291066952045861131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_253
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3223195886247ed30800000000000000
+      internalID: 4460606972618682915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_254
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ebb8b03e6359cfd0800000000000000
+      internalID: -2321232400203858969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_255
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5666d5604ab323140800000000000000
+      internalID: 4697882936968308325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_256
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 001065f877451da70800000000000000
+      internalID: 8849947615242354944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_257
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c2c8b18688ba8e90800000000000000
+      internalID: -7022597781089369400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_258
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 112
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6ea1b4f71cdddc00800000000000000
+      internalID: 927139093755833965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_259
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 102
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b929412ad6b3aed0800000000000000
+      internalID: -2403876728108144199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_260
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 102
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7e55cf2e7903de50800000000000000
+      internalID: 6832815497223167614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_261
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cca7dce1d4dfd9f0800000000000000
+      internalID: -441400240372208444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_262
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 624709d6dd7fb1ad0800000000000000
+      internalID: -2730316218672057306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_263
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4187645272670d770800000000000000
+      internalID: 8633530396170418196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_264
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 998acf6057e049100800000000000000
+      internalID: 113731786382289049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_265
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 672c0f703731dfe10800000000000000
+      internalID: 2232962375021019766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_266
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d9113e7c1ea859d0800000000000000
+      internalID: -2785284932129187368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_267
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8251d568a77730d00800000000000000
+      internalID: 937724515547157800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_268
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddcc389d8badb0ea0800000000000000
+      internalID: -5905385998908142371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_269
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36cd0a3b99d124630800000000000000
+      internalID: 3909719972491877475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_270
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d27637b40ce2b10a0800000000000000
+      internalID: -6909877799835441363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_271
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1bc66e261077f490800000000000000
+      internalID: -7712572596278605029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_272
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be7f3b4019c865060800000000000000
+      internalID: 6941890430115248107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_273
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9db549c2de5952890800000000000000
+      internalID: -7483410359918502951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_274
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a6c10cd82f3fa0b0800000000000000
+      internalID: -5715279957387524443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_275
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c55233f7ff9952eb0800000000000000
+      internalID: -4745217309735180964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_276
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df48e9375a0987fd0800000000000000
+      internalID: -2343964565762571011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_277
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 183cd44f762353930800000000000000
+      internalID: 4122256455989314433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_278
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2bef9b5e2b0c6ac0800000000000000
+      internalID: -3860698486829749460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_279
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c557a00a76fbdcda0800000000000000
+      internalID: -5922867483134757540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_280
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc2696d5608fd26a0800000000000000
+      internalID: -6472244383240854837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_281
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3c8a49343d196800800000000000000
+      internalID: 606047734994734140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_282
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7365abb187a08c5d0800000000000000
+      internalID: -3042170037311220169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_283
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7785d17648351de20800000000000000
+      internalID: 3373569424007977079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_284
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df0fc7cc9985b9520800000000000000
+      internalID: 2709857018377466109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_285
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98686d006527cfb10800000000000000
+      internalID: 2016612446861952649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_286
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73b983101236dcf20800000000000000
+      internalID: 3444518283413855031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_287
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 160
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec567aed409cae770800000000000000
+      internalID: 8640939857816282574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_288
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 150
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee98b821fad92f820800000000000000
+      internalID: 2950594081137068526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_289
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 150
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71c3b478d3ee8a480800000000000000
+      internalID: -8887591916585403369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_290
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 198
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 366723d2fa60ff410800000000000000
+      internalID: 1512935349267101283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_291
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 208
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01300cc966b39a130800000000000000
+      internalID: 3578456690825102096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_292
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 198
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2347d782849cf4b90800000000000000
+      internalID: -7255359162916441038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_293
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dc85be5f027ed240800000000000000
+      internalID: 4818414061672041688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_294
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac6694a2184f7a620800000000000000
+      internalID: 2785463730149353162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_295
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc15d8ad17ee97ee0800000000000000
+      internalID: -1262716047735303729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_296
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f95e5ad13b3a89a0800000000000000
+      internalID: -6230102049210607116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_297
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01c630e470b125810800000000000000
+      internalID: 1752492923188112400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_298
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c01ea994e0a27210800000000000000
+      internalID: 1329301743719026886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_299
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4841d8a4dd7abdb60800000000000000
+      internalID: 7771990150838293636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_300
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c951fa14dda1c3a0800000000000000
+      internalID: -6646840448525444664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_301
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20406f3fa55c371d0800000000000000
+      internalID: -3354120303030172670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_302
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51d3ec094916fc8b0800000000000000
+      internalID: -5129774159839216363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_303
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ab559b6974cfa7e0800000000000000
+      internalID: -1751965704248796249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_165
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e99dc48b68ee401f0800000000000000
+      internalID: -1079475748277003874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_304
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e582e1c095a848790800000000000000
+      internalID: -7528740561996601250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_305
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77b7df9dfc9edd330800000000000000
+      internalID: 3737400344712149879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_306
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6003a8bf6b39a27d0800000000000000
+      internalID: -2942376992419729402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_307
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbbd9608dfd13a880800000000000000
+      internalID: -8600997888729162817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_308
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4231845adb17d7c70800000000000000
+      internalID: 8970451092127617828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_309
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdddc7e15a25a1d50800000000000000
+      internalID: 6708765464056356315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_310
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1c39b36f0aacd000800000000000000
+      internalID: 62111477950659611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Farm Packv12_311
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 384
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea63eb1d5775bba70800000000000000
+      internalID: 8843758456813794990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
