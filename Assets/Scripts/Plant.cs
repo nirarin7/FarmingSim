@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 public class Plant : MonoBehaviour {
     // Plant attributes (instance variables)
@@ -12,18 +13,19 @@ public class Plant : MonoBehaviour {
     public String type;
 
 
-    private int _totalSprites;
-    public List<Sprite> growthPhase;
+    private int _totalSpritesCount;
+    public List<Sprite> growingSprites;
     public Sprite harvestSprite;
 
 
-    public int _currentDay;
-    public int harvestDay;
+    public int numberOfDaysGrown;
+    public int harvestTimeDays;
+
 
     // Start is called before the first frame update
     void Start() {
         _spriteRenderer = GetComponent<SpriteRenderer>();
-        _totalSprites = growthPhase.Count;
+        _totalSpritesCount = growingSprites.Count;
     }
 
     // Update is called once per frame
@@ -32,20 +34,15 @@ public class Plant : MonoBehaviour {
 
 
     public void Grow() {
-        
-        _currentDay++;
-        Debug.Log(CalculateSprite());
-        // change sprite
-        
-        if (_currentDay >= harvestDay) {
+        numberOfDaysGrown++;
+
+        if (numberOfDaysGrown >= harvestTimeDays)
             _spriteRenderer.sprite = harvestSprite;
-        } else {
-            _spriteRenderer.sprite = growthPhase[CalculateSprite()];
-        }
+        else
+            _spriteRenderer.sprite = growingSprites[CalculateSpriteIndex()];
     }
 
-    private int CalculateSprite() {
-        float spriteIndex = (_totalSprites / (float)harvestDay) * _currentDay;
-        return (int)spriteIndex;
+    private int CalculateSpriteIndex() {
+        return (int) ((_totalSpritesCount / (float) harvestTimeDays) * numberOfDaysGrown);
     }
 }
