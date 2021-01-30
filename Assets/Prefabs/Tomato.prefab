@@ -98,11 +98,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   plantName: Tomato
   type: Fruit
-  growthPhase:
+  growingSprites:
   - {fileID: 6763239584270825710, guid: fff7a1bc0bf3fe1449e09d111b25f060, type: 3}
   - {fileID: -8892350555127147143, guid: fff7a1bc0bf3fe1449e09d111b25f060, type: 3}
   - {fileID: 3129659223043388249, guid: fff7a1bc0bf3fe1449e09d111b25f060, type: 3}
   - {fileID: -6685149105780896793, guid: fff7a1bc0bf3fe1449e09d111b25f060, type: 3}
   harvestSprite: {fileID: -2146407093769027070, guid: fff7a1bc0bf3fe1449e09d111b25f060,
     type: 3}
-  harvestDay: 8
+  numberOfDaysGrown: 0
+  harvestTimeDays: 14

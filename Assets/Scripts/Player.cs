@@ -7,7 +7,6 @@ public class Player : MonoBehaviour
 {
     public float speed = .5f;
 
-
     private Rigidbody2D _rigidbody;
     private Animator _animator;
 
