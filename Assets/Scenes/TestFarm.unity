@@ -401,17 +401,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 890052502847731057, guid: 489ffc8e71409194f980279c7ab033f6,
-        type: 3}
-      propertyPath: growthPhase.Array.size
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 890052502847731057, guid: 489ffc8e71409194f980279c7ab033f6,
-        type: 3}
-      propertyPath: growthPhase.Array.data[4]
-      value: 
-      objectReference: {fileID: -2146407093769027070, guid: fff7a1bc0bf3fe1449e09d111b25f060,
-        type: 3}
     - target: {fileID: 1211499728462232483, guid: 489ffc8e71409194f980279c7ab033f6,
         type: 3}
       propertyPath: m_Name
@@ -831,7 +820,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -540.63, y: -252.86}
+  m_AnchoredPosition: {x: -446.63, y: -251}
   m_SizeDelta: {x: 68.7437, y: 25.2769}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1315493803

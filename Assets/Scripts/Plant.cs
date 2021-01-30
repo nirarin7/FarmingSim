@@ -6,22 +6,17 @@ using UnityEngine.Serialization;
 
 public class Plant : MonoBehaviour {
     // Plant attributes (instance variables)
-
-    private SpriteRenderer _spriteRenderer;
-
-    public String plantName;
-    public String type;
-
-
-    private int _totalSpritesCount;
-    public List<Sprite> growingSprites;
-    public Sprite harvestSprite;
-
-
+    public string plantName;
+    public string type;
     public int numberOfDaysGrown;
     public int harvestTimeDays;
+    public List<Sprite> growingSprites;
+    public Sprite harvestSprite;
+    public GameObject HarvestItem;
 
-
+    private int _totalSpritesCount;
+    private SpriteRenderer _spriteRenderer;
+    
     // Start is called before the first frame update
     void Start() {
         _spriteRenderer = GetComponent<SpriteRenderer>();
@@ -31,8 +26,7 @@ public class Plant : MonoBehaviour {
     // Update is called once per frame
     void Update() {
     }
-
-
+    
     public void Grow() {
         numberOfDaysGrown++;
 
@@ -44,5 +38,10 @@ public class Plant : MonoBehaviour {
 
     private int CalculateSpriteIndex() {
         return (int) ((_totalSpritesCount / (float) harvestTimeDays) * numberOfDaysGrown);
+    }
+    
+    public void Harvest() {
+        Debug.Log("Item dropped" );
+        Instantiate(HarvestItem);
     }
 }
