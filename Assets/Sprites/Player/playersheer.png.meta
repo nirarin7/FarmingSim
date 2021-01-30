@@ -1,0 +1,1932 @@
+fileFormatVersion: 2
+guid: 1f6cffcd94a40fe46837a6ed213f1913
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3134888265027797831
+    second: playersheer_0
+  - first:
+      213: 2611056029467359179
+    second: playersheer_1
+  - first:
+      213: -6012371064172703251
+    second: playersheer_2
+  - first:
+      213: 603037691577176713
+    second: playersheer_3
+  - first:
+      213: 4745727697755086056
+    second: playersheer_4
+  - first:
+      213: 7677596583372602609
+    second: playersheer_5
+  - first:
+      213: -6797873517116123804
+    second: playersheer_6
+  - first:
+      213: 2130435287439569426
+    second: playersheer_7
+  - first:
+      213: -531897922540807949
+    second: playersheer_8
+  - first:
+      213: 1168703194197150225
+    second: playersheer_9
+  - first:
+      213: -55538743373318777
+    second: playersheer_10
+  - first:
+      213: -3505476191047150229
+    second: playersheer_11
+  - first:
+      213: 476504778568345970
+    second: playersheer_12
+  - first:
+      213: -744551858302068815
+    second: playersheer_13
+  - first:
+      213: 1554309931349319980
+    second: playersheer_14
+  - first:
+      213: 2043382315849408221
+    second: playersheer_15
+  - first:
+      213: 329104117430143896
+    second: playersheer_16
+  - first:
+      213: 7229986995702104888
+    second: playersheer_17
+  - first:
+      213: 6232032282206944155
+    second: playersheer_18
+  - first:
+      213: 6651574938906125207
+    second: playersheer_19
+  - first:
+      213: -4559923073056654051
+    second: playersheer_20
+  - first:
+      213: 4681385825017565245
+    second: playersheer_21
+  - first:
+      213: 6339143539735718067
+    second: playersheer_22
+  - first:
+      213: -6313533257642020219
+    second: playersheer_23
+  - first:
+      213: -100120835095869729
+    second: playersheer_24
+  - first:
+      213: 1430945094088026970
+    second: playersheer_25
+  - first:
+      213: 29783778591020836
+    second: playersheer_26
+  - first:
+      213: -3760800034415464877
+    second: playersheer_27
+  - first:
+      213: 7060971629669936506
+    second: playersheer_28
+  - first:
+      213: 8594204478701871796
+    second: playersheer_29
+  - first:
+      213: 6053015060732900870
+    second: playersheer_30
+  - first:
+      213: 5080766438269757838
+    second: playersheer_31
+  - first:
+      213: -8753820268185571599
+    second: playersheer_32
+  - first:
+      213: 7917961059651596476
+    second: playersheer_33
+  - first:
+      213: -1020502030616438515
+    second: playersheer_34
+  - first:
+      213: -9090159420516768675
+    second: playersheer_35
+  - first:
+      213: -4103978050450287129
+    second: playersheer_36
+  - first:
+      213: 4557113044357970186
+    second: playersheer_37
+  - first:
+      213: -8339260796153603067
+    second: playersheer_38
+  - first:
+      213: -8120644353163828332
+    second: playersheer_39
+  - first:
+      213: -9158980475765468169
+    second: playersheer_40
+  - first:
+      213: 8322780226918230629
+    second: playersheer_41
+  - first:
+      213: -626720480874499946
+    second: playersheer_42
+  - first:
+      213: -4383481317100783891
+    second: playersheer_43
+  - first:
+      213: 5061581017192233457
+    second: playersheer_44
+  - first:
+      213: 6860104933448413880
+    second: playersheer_45
+  - first:
+      213: -4668969893535770380
+    second: playersheer_46
+  - first:
+      213: 3283421853308364262
+    second: playersheer_47
+  - first:
+      213: 3296898219020590611
+    second: playersheer_48
+  - first:
+      213: 3405005062884032451
+    second: playersheer_49
+  - first:
+      213: -4329126630655463003
+    second: playersheer_50
+  - first:
+      213: 1916807714415809494
+    second: playersheer_51
+  - first:
+      213: 2516288100791291964
+    second: playersheer_52
+  - first:
+      213: -488759602476391033
+    second: playersheer_53
+  - first:
+      213: -2840743457489332519
+    second: playersheer_54
+  - first:
+      213: 169888871090015239
+    second: playersheer_55
+  - first:
+      213: -3317865405200620617
+    second: playersheer_56
+  - first:
+      213: 6477273968816814384
+    second: playersheer_57
+  - first:
+      213: 1312354818133040602
+    second: playersheer_58
+  - first:
+      213: -1847065501048549183
+    second: playersheer_59
+  - first:
+      213: -2002679290791243321
+    second: playersheer_60
+  - first:
+      213: 2025305457995892103
+    second: playersheer_61
+  - first:
+      213: 7510698051916757593
+    second: playersheer_62
+  - first:
+      213: -4511425632182381054
+    second: playersheer_63
+  - first:
+      213: 3220320325772001616
+    second: playersheer_64
+  - first:
+      213: -934113807523455039
+    second: playersheer_65
+  - first:
+      213: -5368414739008983046
+    second: playersheer_66
+  - first:
+      213: 3084113225855478017
+    second: playersheer_67
+  - first:
+      213: -7721173954153500303
+    second: playersheer_68
+  - first:
+      213: -8642279229168079410
+    second: playersheer_69
+  - first:
+      213: -4640712192938889051
+    second: playersheer_70
+  - first:
+      213: 8386183814930401074
+    second: playersheer_71
+  - first:
+      213: -1348719400206936703
+    second: playersheer_72
+  - first:
+      213: -6013227673289084555
+    second: playersheer_78
+  - first:
+      213: 7141704818863308328
+    second: playersheer_79
+  - first:
+      213: -389378261253630869
+    second: playersheer_80
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 20
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: playersheer_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 316
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 743c587844c518b20800000000000000
+      internalID: 3134888265027797831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playersheer_1
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 317
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc73b05ff955c3420800000000000000
+      internalID: 2611056029467359179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playersheer_2
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 316
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de1162e3f54cf8ca0800000000000000
+      internalID: -6012371064172703251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playersheer_3
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 316
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98211a0e59b6e5800800000000000000
+      internalID: 603037691577176713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playersheer_4
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 319
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ec9c6972363cd140800000000000000
+      internalID: 4745727697755086056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playersheer_5
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 316
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fc3da83a6d4c8a60800000000000000
+      internalID: 7677596583372602609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playersheer_6
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 318
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46512488d0a19a1a0800000000000000
+      internalID: -6797873517116123804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playersheer_7
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 318
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 212facc3b93d09d10800000000000000
+      internalID: 2130435287439569426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playersheer_8
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 318
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f8df2658a15e98f0800000000000000
+      internalID: -531897922540807949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playersheer_9
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 318
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11a4cf1fc51183010800000000000000
+      internalID: 1168703194197150225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playersheer_10
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 289
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78536f1aecfaa3ff0800000000000000
+      internalID: -55538743373318777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playersheer_11
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 289
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b659b002afb0a5fc0800000000000000
+      internalID: -3505476191047150229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playersheer_12
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 288
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 279a75c4292ec9600800000000000000
+      internalID: 476504778568345970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playersheer_13
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 290
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b75c099702daa5f0800000000000000
+      internalID: -744551858302068815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playersheer_14
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 291
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2120f0c5a4029510800000000000000
+      internalID: 1554309931349319980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playersheer_15
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 290
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dded484d36d8b5c10800000000000000
+      internalID: 2043382315849408221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playersheer_16
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 260
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89bca8d7376319400800000000000000
+      internalID: 329104117430143896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playersheer_17
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 262
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8338481ddd2165460800000000000000
+      internalID: 7229986995702104888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playersheer_18
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 260
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9b36b98750ac7650800000000000000
+      internalID: 6232032282206944155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playersheer_19
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 263
+        width: 20
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 793e3665a242f4c50800000000000000
+      internalID: 6651574938906125207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playersheer_20
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 266
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1db953ef16e7b0c0800000000000000
+      internalID: -4559923073056654051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playersheer_21
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 264
+        width: 20
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3098b4da9f97f040800000000000000
+      internalID: 4681385825017565245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playersheer_22
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 233
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b8e822967929f750800000000000000
+      internalID: 6339143539735718067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playersheer_23
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 234
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 582f1a4e3f2d168a0800000000000000
+      internalID: -6313533257642020219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playersheer_24
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 233
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd6ce7581ac4c9ef0800000000000000
+      internalID: -100120835095869729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playersheer_25
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 237
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5b643a4bfcbbd310800000000000000
+      internalID: 1430945094088026970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playersheer_26
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 238
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4279cf65030d96000800000000000000
+      internalID: 29783778591020836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playersheer_27
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 237
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35ea3655b44fecbc0800000000000000
+      internalID: -3760800034415464877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playersheer_28
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 228
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7d669b594c9df160800000000000000
+      internalID: 7060971629669936506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playersheer_29
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 228
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b2a818707fb44770800000000000000
+      internalID: 8594204478701871796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playersheer_30
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 214
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 606f213a021a00450800000000000000
+      internalID: 6053015060732900870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playersheer_31
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 199
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e89abc31822828640800000000000000
+      internalID: 5080766438269757838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playersheer_32
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 186
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fe2f2788de248680800000000000000
+      internalID: -8753820268185571599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playersheer_33
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 186
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb0b8e1f1af32ed60800000000000000
+      internalID: 7917961059651596476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playersheer_34
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 176
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d09da8c5fc276d1f0800000000000000
+      internalID: -1020502030616438515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playersheer_35
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 176
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d546d643b2449d180800000000000000
+      internalID: -9090159420516768675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playersheer_36
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 176
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e519e8f4bdbb07c0800000000000000
+      internalID: -4103978050450287129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playersheer_37
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 171
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0971425b2e1e3f30800000000000000
+      internalID: 4557113044357970186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playersheer_38
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 171
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50c5ceb3d7ef44c80800000000000000
+      internalID: -8339260796153603067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playersheer_39
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 171
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 493636e5cfcad4f80800000000000000
+      internalID: -8120644353163828332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playersheer_40
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 171
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f3d24d98c3c4e080800000000000000
+      internalID: -9158980475765468169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playersheer_41
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 159
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56a2b193584708370800000000000000
+      internalID: 8322780226918230629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playersheer_42
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 160
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 690730c0b017d47f0800000000000000
+      internalID: -626720480874499946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playersheer_43
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 159
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de675ae77feba23c0800000000000000
+      internalID: -4383481317100783891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playersheer_44
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 160
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f97a932e195e3640800000000000000
+      internalID: 5061581017192233457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playersheer_45
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 144
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b2f810371df33f50800000000000000
+      internalID: 6860104933448413880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playersheer_46
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 142
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f89ecc7e9c743fb0800000000000000
+      internalID: -4668969893535770380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playersheer_47
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 142
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e5233e77ce019d20800000000000000
+      internalID: 3283421853308364262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playersheer_48
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 142
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31e1755667fe0cd20800000000000000
+      internalID: 3296898219020590611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playersheer_49
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 117
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cffb9f6012014f20800000000000000
+      internalID: 3405005062884032451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playersheer_50
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 117
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a1f810244adbe3c0800000000000000
+      internalID: -4329126630655463003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playersheer_51
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 117
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d39b78e57ed99a10800000000000000
+      internalID: 1916807714415809494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playersheer_52
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 108
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c30153022b6abe220800000000000000
+      internalID: 2516288100791291964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playersheer_53
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 108
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78565d92bb39739f0800000000000000
+      internalID: -488759602476391033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playersheer_54
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 108
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d6555650e6a398d0800000000000000
+      internalID: -2840743457489332519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playersheer_55
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 107
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70ccc9437019b5200800000000000000
+      internalID: 169888871090015239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playersheer_56
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 108
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b3a5762ef294f1d0800000000000000
+      internalID: -3317865405200620617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playersheer_57
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 108
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 039f5384b56e3e950800000000000000
+      internalID: 6477273968816814384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playersheer_58
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 108
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: add971201cb663210800000000000000
+      internalID: 1312354818133040602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playersheer_59
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 89
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c05f1586b7ed56e0800000000000000
+      internalID: -1847065501048549183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playersheer_60
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 75
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c15b51bbcd0534e0800000000000000
+      internalID: -2002679290791243321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playersheer_61
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 75
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 785418165945b1c10800000000000000
+      internalID: 2025305457995892103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playersheer_62
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 75
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95a77b7b51c5b3860800000000000000
+      internalID: 7510698051916757593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playersheer_63
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 74
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2065d234a423461c0800000000000000
+      internalID: -4511425632182381054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playersheer_64
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 74
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0514c983640e0bc20800000000000000
+      internalID: 3220320325772001616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playersheer_65
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 74
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cfd6c2f07c5903f0800000000000000
+      internalID: -934113807523455039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playersheer_66
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 74
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: affe56aec3f8f75b0800000000000000
+      internalID: -5368414739008983046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playersheer_67
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 74
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 109233a73a8fcca20800000000000000
+      internalID: 3084113225855478017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playersheer_68
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 60
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 171bead7231e8d490800000000000000
+      internalID: -7721173954153500303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playersheer_69
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 60
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecd23bf64d4701880800000000000000
+      internalID: -8642279229168079410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playersheer_70
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 60
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a0bd0b19d0e89fb0800000000000000
+      internalID: -4640712192938889051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playersheer_71
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 60
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2378e0e6fb5b16470800000000000000
+      internalID: 8386183814930401074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playersheer_72
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 32
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 185dcf0f9d2684de0800000000000000
+      internalID: -1348719400206936703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playersheer_78
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 4
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5713e046a49bc8ca0800000000000000
+      internalID: -6013227673289084555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playersheer_79
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 4
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82efa03c1be6c1360800000000000000
+      internalID: 7141704818863308328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playersheer_80
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 4
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b64d7bec886a89af0800000000000000
+      internalID: -389378261253630869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
