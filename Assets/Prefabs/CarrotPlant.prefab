@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &1211499728462232483
+--- !u!1 &7811169490156667317
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,37 +8,37 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 6955042084011348155}
-  - component: {fileID: 2289818137370723598}
-  - component: {fileID: 890052502847731057}
+  - component: {fileID: 7923159112863116200}
+  - component: {fileID: 6912109217144797463}
+  - component: {fileID: 4655422871148856959}
   m_Layer: 9
-  m_Name: Tomato
-  m_TagString: Plant
+  m_Name: CarrotPlant
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &6955042084011348155
+--- !u!4 &7923159112863116200
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1211499728462232483}
+  m_GameObject: {fileID: 7811169490156667317}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.14, y: 2.53, z: 0}
+  m_LocalPosition: {x: -3.32, y: -1.48, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &2289818137370723598
+--- !u!212 &6912109217144797463
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1211499728462232483}
+  m_GameObject: {fileID: 7811169490156667317}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -72,45 +72,44 @@ SpriteRenderer:
   m_SortingLayerID: 664878647
   m_SortingLayer: 1
   m_SortingOrder: 0
-  m_Sprite: {fileID: 2723419473824185703, guid: fff7a1bc0bf3fe1449e09d111b25f060,
+  m_Sprite: {fileID: -1591494540414486155, guid: fff7a1bc0bf3fe1449e09d111b25f060,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.8125, y: 1}
+  m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &890052502847731057
+--- !u!114 &4655422871148856959
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1211499728462232483}
+  m_GameObject: {fileID: 7811169490156667317}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 15c2a5fd3e0fc864a870cdbaebda9f77, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  plantName: Tomato
-  type: Fruit
+  plantName: Carrot
+  type: Veg
   numberOfDaysGrown: 0
-  harvestTimeDays: 14
+  harvestTimeDays: 8
   growingSprites:
-  - {fileID: 6763239584270825710, guid: fff7a1bc0bf3fe1449e09d111b25f060, type: 3}
-  - {fileID: -8892350555127147143, guid: fff7a1bc0bf3fe1449e09d111b25f060, type: 3}
-  - {fileID: 3129659223043388249, guid: fff7a1bc0bf3fe1449e09d111b25f060, type: 3}
-  - {fileID: -6685149105780896793, guid: fff7a1bc0bf3fe1449e09d111b25f060, type: 3}
-  harvestSprite: {fileID: -2146407093769027070, guid: fff7a1bc0bf3fe1449e09d111b25f060,
+  - {fileID: 1231135443311307367, guid: fff7a1bc0bf3fe1449e09d111b25f060, type: 3}
+  - {fileID: 4971549738281603843, guid: fff7a1bc0bf3fe1449e09d111b25f060, type: 3}
+  - {fileID: 7934050724169243448, guid: fff7a1bc0bf3fe1449e09d111b25f060, type: 3}
+  - {fileID: 7055885797876016272, guid: fff7a1bc0bf3fe1449e09d111b25f060, type: 3}
+  harvestSprite: {fileID: -6765612774006472302, guid: fff7a1bc0bf3fe1449e09d111b25f060,
     type: 3}
-  harvestItem: {fileID: 2511119984919191525, guid: c0369d4b416daf742baaeec7c66e406c,
-    type: 3}
-  maxHarvestItemNumber: 8
-  minHarvestItemNumber: 3
+  harvestItem: {fileID: 0}
+  maxHarvestItemNumber: 1
+  minHarvestItemNumber: 1
   totalHarvestNumber: 0
   dropOffSetX: 3
   dropOffSetY: 2
