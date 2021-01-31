@@ -2,13 +2,14 @@
 using System.Net;
 using System.Net.Sockets;
 using System.Numerics;
-using System.Threading;
+using GameServer.GameModels;
+using GameServer.Server;
 
-namespace GameServer
+namespace GameServer.Client
 {
     public class Client
     {
-        public static int _dataBufferSize = 4096;
+        public static readonly int _dataBufferSize = 4096;
 
         public int id;
         public Player Player;
@@ -18,8 +19,8 @@ namespace GameServer
         public Client(int id)
         {
             this.id = id;
-            this.tcp = new TCP(id);
-            this.udp = new UDP(id);
+            tcp = new TCP(id);
+            udp = new UDP(id);
         }
 
         public class TCP
@@ -28,12 +29,12 @@ namespace GameServer
 
             private readonly int _id;
             private NetworkStream _stream;
-            private Packet _receiveData;
+            private Packet.Packet _receiveData;
             private byte[] _receiveBuffer;
 
             public TCP(int id)
             {
-                this._id = id;
+                _id = id;
             }
 
             public void Connect(TcpClient tcpSocket)
@@ -43,7 +44,7 @@ namespace GameServer
                 Socket.SendBufferSize = _dataBufferSize;
 
                 _stream = Socket.GetStream();
-                _receiveData = new Packet();
+                _receiveData = new Packet.Packet();
                 _receiveBuffer = new byte[_dataBufferSize];
 
                 _stream.BeginRead(_receiveBuffer, 0, _dataBufferSize, ReceiveCallback, null);
@@ -51,7 +52,7 @@ namespace GameServer
                 ServerSend.Welcome(_id, "Welcome to the server!");
             }
 
-            public void SendData(Packet packet)
+            public void SendData(Packet.Packet packet)
             {
                 try
                 {
@@ -74,7 +75,7 @@ namespace GameServer
                     int byteLength = _stream.EndRead(result);
                     if (byteLength <= 0)
                     {
-                        Server.Clients[_id].Disconnect();
+                        Server.GameServer.Clients[_id].Disconnect();
                         return;
                     }
 
@@ -87,7 +88,7 @@ namespace GameServer
                 catch (Exception e)
                 {
                     Console.WriteLine($"There was an error: {e.Message}, {e.StackTrace}");
-                    Server.Clients[_id].Disconnect();
+                    Server.GameServer.Clients[_id].Disconnect();
                 }
             }
 
@@ -109,10 +110,10 @@ namespace GameServer
                     byte[] packetBytes = _receiveData.ReadBytes(packetLength);
                     ThreadManager.ExecuteOnMainThread(() =>
                     {
-                        using (Packet packet = new Packet(packetBytes))
+                        using (Packet.Packet packet = new Packet.Packet(packetBytes))
                         {
                             int packetId = packet.ReadInt();
-                            Server.packetHandlers[packetId](_id, packet);
+                            Server.GameServer.PacketHandlers[packetId](_id, packet);
                         }
                     });
 
@@ -161,22 +162,22 @@ namespace GameServer
                 EndPoint = endPoint;
             }
 
-            public void SendData(Packet packet)
+            public void SendData(Packet.Packet packet)
             {
-                Server.SendUDPData(EndPoint, packet);
+                Server.GameServer.SendUDPData(EndPoint, packet);
             }
 
-            public void HandleData(Packet packetData)
+            public void HandleData(Packet.Packet packetData)
             {
                 int packetLength = packetData.ReadInt();
                 byte[] packetBytes = packetData.ReadBytes(packetLength);
 
                 ThreadManager.ExecuteOnMainThread(() =>
                 {
-                    using (Packet packet = new Packet(packetBytes))
+                    using (Packet.Packet packet = new Packet.Packet(packetBytes))
                     {
                         int packetId = packet.ReadInt();
-                        Server.packetHandlers[packetId](id, packet);
+                        Server.GameServer.PacketHandlers[packetId](id, packet);
                     }
                 });
             }
@@ -190,7 +191,7 @@ namespace GameServer
         public void SendIntoGame(string playerName)
         {
             Player = new Player(id, playerName, Vector2.Zero);
-            foreach (var client in Server.Clients.Values)
+            foreach (var client in Server.GameServer.Clients.Values)
             {
                 if (client.Player != null && client.id != id)
                 {
@@ -198,7 +199,7 @@ namespace GameServer
                 }
             }
 
-            foreach (var client in Server.Clients.Values)
+            foreach (var client in Server.GameServer.Clients.Values)
             {
                 if (client.Player != null)
                 {

@@ -18,7 +18,7 @@ public class ClientSend : MonoBehaviour
 
     public static void WelcomeReceived()
     {
-        using (Packet packet = new Packet((int)ClientPackets.welcomeReceived))
+        using (Packet packet = new Packet((int)ClientPackets.WelcomeReceived))
         {
             packet.Write(Client.Instance.id);
             packet.Write(UiManager.instance.username.text);

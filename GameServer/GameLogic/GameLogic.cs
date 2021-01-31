@@ -1,10 +1,12 @@
-﻿namespace GameServer
+﻿using GameServer.Server;
+
+namespace GameServer.GameLogic
 {
-    public class GameLoop
+    public static class GameLogic
     {
         public static void Update()
         {
-            foreach (var clientsValue in Server.Clients.Values)
+            foreach (var clientsValue in Server.GameServer.Clients.Values)
             {
                 if (clientsValue.Player != null)
                 {

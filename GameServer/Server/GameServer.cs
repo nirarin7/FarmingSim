@@ -2,18 +2,19 @@
 using System.Collections.Generic;
 using System.Net;
 using System.Net.Sockets;
+using GameServer.Enums;
 
-namespace GameServer
+namespace GameServer.Server
 {
-    public class Server
+    public static class GameServer
     {
-        public static int MaxPlayers { get; set; }
+        public static int MaxPlayers { get; private set; }
         public static int Port { get; set; }
-        public static Dictionary<int, Client> Clients = new Dictionary<int, Client>();
 
-        public delegate void PacketHandler(int clientId, Packet packer);
-
-        public static Dictionary<int, PacketHandler> packetHandlers = new Dictionary<int, PacketHandler>();
+        public delegate void PacketHandler(int clientId, Packet.Packet packer);
+        
+        public static Dictionary<int, Client.Client> Clients = new Dictionary<int, Client.Client>();
+        public static Dictionary<int, PacketHandler> PacketHandlers = new Dictionary<int, PacketHandler>();
 
         private static TcpListener _tcpListener;
         private static UdpClient _udpListner;
@@ -67,7 +68,7 @@ namespace GameServer
                     return;
                 }
 
-                using (Packet packet = new Packet(data))
+                using (Packet.Packet packet = new Packet.Packet(data))
                 {
                     int clientId = packet.ReadInt();
 
@@ -95,7 +96,7 @@ namespace GameServer
             }
         }
 
-        public static void SendUDPData(IPEndPoint clientEndPoint, Packet packet)
+        public static void SendUDPData(IPEndPoint clientEndPoint, Packet.Packet packet)
         {
             try
             {
@@ -116,13 +117,13 @@ namespace GameServer
         {
             for (int i = 1; i <= MaxPlayers; i++)
             {
-                Clients.Add(i, new Client(i));
+                Clients.Add(i, new Client.Client(i));
             }
 
-            packetHandlers = new Dictionary<int, PacketHandler>()
+            PacketHandlers = new Dictionary<int, PacketHandler>()
             {
-                {(int) ClientPackets.welcomeReceived, ServerHandle.WelcomeReceived},
-                {(int) ClientPackets.playerPosition, ServerHandle.PlayerMovement}
+                {(int) ClientPackets.WelcomeReceived, ServerHandler.WelcomeReceived},
+                {(int) ClientPackets.PlayerPosition, ServerHandler.PlayerMovement}
             };
             Console.WriteLine("Initialized packets.");
         }
