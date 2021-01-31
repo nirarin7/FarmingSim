@@ -31,6 +31,7 @@ public class Player : MonoBehaviour
         _animator.SetFloat("VerticalDirection", moveVertical);
         
         var movement = new Vector2(moveHorizontal, moveVertical) * speed;
-        transform.position = new Vector3(transform.position.x + movement.x, transform.position.y + movement.y);
+        var position = transform.position;
+        transform.position = new Vector3(position.x + movement.x, position.y + movement.y);
     }
 }
