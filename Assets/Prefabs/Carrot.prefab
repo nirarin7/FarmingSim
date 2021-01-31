@@ -99,6 +99,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   movementSpeed: 3
   inRangeOffset: 0.1
+  dropOffSet: 1
 --- !u!58 &433340687259081829
 CircleCollider2D:
   m_ObjectHideFlags: 0

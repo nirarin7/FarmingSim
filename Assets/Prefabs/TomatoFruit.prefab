@@ -113,5 +113,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30dd2ebeddfc55f4a923eab082eb00cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  movementSpeed: 4
-  inRangeOffset: 0.1
+  movementSpeed: 3
+  inRangeOffset: 1
+  dropOffSet: 1
