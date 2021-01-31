@@ -1,8 +1,12 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Numerics;
 using UnityEngine;
 using UnityEngine.Serialization;
+using Quaternion = UnityEngine.Quaternion;
+using Random = UnityEngine.Random;
+using Vector2 = UnityEngine.Vector2;
 
 public class Plant : MonoBehaviour {
     // Plant attributes (instance variables)
@@ -12,11 +16,18 @@ public class Plant : MonoBehaviour {
     public int harvestTimeDays;
     public List<Sprite> growingSprites;
     public Sprite harvestSprite;
-    public GameObject HarvestItem;
+    public GameObject harvestItem;
+    public int maxHarvestItemNumber;
+    public int minHarvestItemNumber;
+    public int totalHarvestNumber;
+    public float dropOffSetX;
+    public float dropOffSetY;
+    //public Vector<> playerPosition; 
+    
 
     private int _totalSpritesCount;
     private SpriteRenderer _spriteRenderer;
-    
+
     // Start is called before the first frame update
     void Start() {
         _spriteRenderer = GetComponent<SpriteRenderer>();
@@ -26,7 +37,7 @@ public class Plant : MonoBehaviour {
     // Update is called once per frame
     void Update() {
     }
-    
+
     public void Grow() {
         numberOfDaysGrown++;
 
@@ -39,9 +50,22 @@ public class Plant : MonoBehaviour {
     private int CalculateSpriteIndex() {
         return (int) ((_totalSpritesCount / (float) harvestTimeDays) * numberOfDaysGrown);
     }
+
     
     public void Harvest() {
-        Debug.Log("Item dropped" );
-        Instantiate(HarvestItem);
+        Debug.Log("Item dropped");
+
+        totalHarvestNumber = Random.Range(minHarvestItemNumber, maxHarvestItemNumber); // is this already an int?
+
+        var dropPosition = gameObject.transform.position;
+        
+        // drops in range of plant
+        for (int numberDropped = 0; numberDropped < totalHarvestNumber; numberDropped++) {
+            var x = Random.Range(dropPosition.x - dropOffSetX, dropPosition.x + dropOffSetX);
+            var y = Random.Range(dropPosition.y - dropOffSetY, dropPosition.y + dropOffSetY);
+            Instantiate(harvestItem, new Vector2(x,y),Quaternion.identity);
+        }
     }
+    
+    
 }
