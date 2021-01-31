@@ -1,23 +1,24 @@
-﻿using GameServer.Enums;
-using GameServer.GameModels;
+﻿using GameServer.GameModels;
+using GameServerLib.Enums;
+using GameServerLib.Packet;
 
 namespace GameServer.Server
 {
     public static class ServerSend
     {
-        private static void SendTcpData(int tcpClient, Packet.Packet packet)
+        private static void SendTcpData(int tcpClient, Packet packet)
         {
             packet.WriteLength();
             GameServer.Clients[tcpClient].tcp.SendData(packet);
         }
 
-        private static void SendUdpData(int udpClient, Packet.Packet packet)
+        private static void SendUdpData(int udpClient, Packet packet)
         {
             packet.WriteLength();
             GameServer.Clients[udpClient].udp.SendData(packet);
         }
 
-        private static void SendTCPDataToAll(Packet.Packet packet)
+        private static void SendTCPDataToAll(Packet packet)
         {
             packet.WriteLength();
             for (int i = 1; i < GameServer.MaxPlayers; i++)
@@ -26,7 +27,7 @@ namespace GameServer.Server
             }
         }
         
-        private static void SendTCPDataToAll(int expectClientId, Packet.Packet packet)
+        private static void SendTCPDataToAll(int expectClientId, Packet packet)
         {
             packet.WriteLength();
             for (int i = 1; i < GameServer.MaxPlayers; i++)
@@ -38,7 +39,7 @@ namespace GameServer.Server
             }
         }
 
-        private static void SendUDPDataToAll(Packet.Packet packet)
+        private static void SendUDPDataToAll(Packet packet)
         {
             packet.WriteLength();
             for (int i = 1; i < GameServer.MaxPlayers; i++)
@@ -47,7 +48,7 @@ namespace GameServer.Server
             }
         }
         
-        private static void SendUDPDataToAll(int expectClientId, Packet.Packet packet)
+        private static void SendUDPDataToAll(int expectClientId, Packet packet)
         {
             packet.WriteLength();
             for (int i = 1; i < GameServer.MaxPlayers; i++)
@@ -61,7 +62,7 @@ namespace GameServer.Server
         
         public static void Welcome(int tcpClient, string msg)
         {
-            using (Packet.Packet packet = new Packet.Packet((int)ServerPackets.Welcome))
+            using (Packet packet = new Packet((int)ServerPackets.Welcome))
             {
                 packet.Write(msg);
                 packet.Write(tcpClient);
@@ -72,7 +73,7 @@ namespace GameServer.Server
 
         public static void SpawnPlayer(int clientId, Player player)
         {
-            using (Packet.Packet packet = new Packet.Packet((int)ServerPackets.SpawnPlayer))
+            using (Packet packet = new Packet((int)ServerPackets.SpawnPlayer))
             {
                 packet.Write(player.Id);
                 packet.Write(player.Username);
@@ -84,7 +85,7 @@ namespace GameServer.Server
 
         public static void PlayerPosition(Player player)
         {
-            using (Packet.Packet packet = new Packet.Packet((int) ServerPackets.PlayerPosition))
+            using (Packet packet = new Packet((int) ServerPackets.PlayerPosition))
             {
                 packet.Write(player.Id);
                 packet.Write(player.Position);

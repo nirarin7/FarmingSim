@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Numerics;
 using System.Text;
 
-namespace GameServer.Packet {
+namespace GameServerLib.Packet {
     public class Packet : IDisposable {
         private List<byte> _buffer;
         private byte[] _readableBuffer;

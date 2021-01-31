@@ -4,6 +4,7 @@ using System.Net.Sockets;
 using System.Numerics;
 using GameServer.GameModels;
 using GameServer.Server;
+using GameServerLib.Packet;
 
 namespace GameServer.Client
 {
@@ -29,7 +30,7 @@ namespace GameServer.Client
 
             private readonly int _id;
             private NetworkStream _stream;
-            private Packet.Packet _receiveData;
+            private Packet _receiveData;
             private byte[] _receiveBuffer;
 
             public TCP(int id)
@@ -44,7 +45,7 @@ namespace GameServer.Client
                 Socket.SendBufferSize = _dataBufferSize;
 
                 _stream = Socket.GetStream();
-                _receiveData = new Packet.Packet();
+                _receiveData = new Packet();
                 _receiveBuffer = new byte[_dataBufferSize];
 
                 _stream.BeginRead(_receiveBuffer, 0, _dataBufferSize, ReceiveCallback, null);
@@ -52,7 +53,7 @@ namespace GameServer.Client
                 ServerSend.Welcome(_id, "Welcome to the server!");
             }
 
-            public void SendData(Packet.Packet packet)
+            public void SendData(Packet packet)
             {
                 try
                 {
@@ -110,7 +111,7 @@ namespace GameServer.Client
                     byte[] packetBytes = _receiveData.ReadBytes(packetLength);
                     ThreadManager.ExecuteOnMainThread(() =>
                     {
-                        using (Packet.Packet packet = new Packet.Packet(packetBytes))
+                        using (Packet packet = new Packet(packetBytes))
                         {
                             int packetId = packet.ReadInt();
                             Server.GameServer.PacketHandlers[packetId](_id, packet);
@@ -162,19 +163,19 @@ namespace GameServer.Client
                 EndPoint = endPoint;
             }
 
-            public void SendData(Packet.Packet packet)
+            public void SendData(Packet packet)
             {
                 Server.GameServer.SendUDPData(EndPoint, packet);
             }
 
-            public void HandleData(Packet.Packet packetData)
+            public void HandleData(Packet packetData)
             {
                 int packetLength = packetData.ReadInt();
                 byte[] packetBytes = packetData.ReadBytes(packetLength);
 
                 ThreadManager.ExecuteOnMainThread(() =>
                 {
-                    using (Packet.Packet packet = new Packet.Packet(packetBytes))
+                    using (Packet packet = new Packet(packetBytes))
                     {
                         int packetId = packet.ReadInt();
                         Server.GameServer.PacketHandlers[packetId](id, packet);

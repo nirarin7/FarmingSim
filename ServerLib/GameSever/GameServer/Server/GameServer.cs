@@ -2,7 +2,8 @@
 using System.Collections.Generic;
 using System.Net;
 using System.Net.Sockets;
-using GameServer.Enums;
+using GameServerLib.Enums;
+using GameServerLib.Packet;
 
 namespace GameServer.Server
 {
@@ -11,7 +12,7 @@ namespace GameServer.Server
         public static int MaxPlayers { get; private set; }
         public static int Port { get; set; }
 
-        public delegate void PacketHandler(int clientId, Packet.Packet packer);
+        public delegate void PacketHandler(int clientId, Packet packer);
         
         public static Dictionary<int, Client.Client> Clients = new Dictionary<int, Client.Client>();
         public static Dictionary<int, PacketHandler> PacketHandlers = new Dictionary<int, PacketHandler>();
@@ -68,7 +69,7 @@ namespace GameServer.Server
                     return;
                 }
 
-                using (Packet.Packet packet = new Packet.Packet(data))
+                using (Packet packet = new Packet(data))
                 {
                     int clientId = packet.ReadInt();
 
@@ -96,7 +97,7 @@ namespace GameServer.Server
             }
         }
 
-        public static void SendUDPData(IPEndPoint clientEndPoint, Packet.Packet packet)
+        public static void SendUDPData(IPEndPoint clientEndPoint, Packet packet)
         {
             try
             {

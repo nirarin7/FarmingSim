@@ -1,12 +1,13 @@
 ﻿using System;
 using System.Numerics;
 using GameServer.GameModels;
+using GameServerLib.Packet;
 
 namespace GameServer.Server
 {
     public static class ServerHandler
     {
-        public static void WelcomeReceived(int clientId, Packet.Packet packet)
+        public static void WelcomeReceived(int clientId, Packet packet)
         {
             int clientIdCheck = packet.ReadInt();
             string username = packet.ReadString();
@@ -21,7 +22,7 @@ namespace GameServer.Server
         }
         
         
-        public static void PlayerMovement(int clientId, Packet.Packet packet)
+        public static void PlayerMovement(int clientId, Packet packet)
         {
             Vector2 position = new Vector2(packet.ReadFloat(), packet.ReadFloat());
             Player player = GameServer.Clients[clientId].Player;
