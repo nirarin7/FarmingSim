@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Numerics;
 
 namespace GameServer
 {
@@ -14,12 +15,15 @@ namespace GameServer
             {
                 Console.WriteLine($"Player {username}, ID: {clientId} has assumed the wrong client ID {clientIdCheck}");
             }
+            
+            Server.Clients[clientId].SendIntoGame(username);
         }
-
-        public static void UdpTestReceived(int clientid, Packet packet)
+        
+        
+        public static void PlayerMovement(int clientId, Packet packet)
         {
-            string msg = packet.ReadString();
-            Console.WriteLine($"Received UDP Packet from {clientid} message: {msg}");
+            Vector2 position = new Vector2(packet.ReadFloat(), packet.ReadFloat());
+            Server.Clients[clientId].Player.SetPosition(position);
         }
     }
 }

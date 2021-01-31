@@ -24,14 +24,13 @@ public class ClientSend : MonoBehaviour
             packet.Write(UiManager.instance.username.text);
             SendTCPData(packet);
         }
-        
     }
 
-    public static void UdpTestRecieve()
+    public static void PlayerPosition(Vector2 position)
     {
-        using (Packet packet = new Packet((int) ClientPackets.udpTestReceived))
+        using (Packet packet = new Packet((int) ClientPackets.PlayerPosition))
         {
-            packet.Write("Received a UDP Packet");
+            packet.Write(position);
             SendUDPData(packet);
         }
     }

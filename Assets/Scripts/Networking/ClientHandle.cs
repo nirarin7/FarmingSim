@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Net;
 using UnityEngine;
+using Vector3 = System.Numerics.Vector3;
 
 public class ClientHandle : MonoBehaviour
 {
@@ -16,10 +17,24 @@ public class ClientHandle : MonoBehaviour
         Client.Instance.udp.Connect(((IPEndPoint) Client.Instance.tcp.socket.Client.LocalEndPoint).Port);
     }
 
-    public static void UdpTest(Packet packet)
+    public static void SpawnPlayer(Packet packet)
     {
-        string msg = packet.ReadString();
-        Debug.Log($"Received packet via UDP. Contains message: {msg}");
-        ClientSend.UdpTestRecieve();
+        int id = packet.ReadInt();
+        string username = packet.ReadString();
+        Vector2 position = packet.ReadVector2();
+        
+        GameManager.Instance.SpawnPlayer(id, username, position);
+    }
+    
+    public static void PlayerPosition(Packet packet)
+    {
+        int id = packet.ReadInt();
+        Vector2 position = packet.ReadVector2();
+
+
+        if (!GameManager.players[id].isLocal)
+        {
+            GameManager.players[id].transform.position = position;
+        }
     }
 }

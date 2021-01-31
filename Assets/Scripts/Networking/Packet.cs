@@ -1,20 +1,22 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
+using UnityEngine;
 
-/// <summary>Sent from server to client.</summary>
 public enum ServerPackets
 {
     welcome = 1,
-    udpTest
+    spawnPlayer,
+    playerPosition,
 }
 
 /// <summary>Sent from client to server.</summary>
 public enum ClientPackets
 {
     welcomeReceived = 1,
-    udpTestReceived
+    PlayerPosition
 }
+
 
 public class Packet : IDisposable
 {
@@ -169,6 +171,23 @@ public class Packet : IDisposable
         buffer.AddRange(Encoding.ASCII.GetBytes(_value)); // Add the string itself
     }
 
+    /// <summary>Adds a string to the packet.</summary>
+    /// <param name="_value">The string to add.</param>
+    public void Write(Vector2 _value)
+    {
+        Write(_value.x); 
+        Write(_value.y); 
+    }
+    
+    /// <summary>Adds a string to the packet.</summary>
+    /// <param name="_value">The string to add.</param>
+    public void Write(Vector3 _value)
+    {
+        Write(_value.x); 
+        Write(_value.y); 
+        Write(_value.z); 
+    }
+    
     #endregion
 
     #region Read Data
@@ -352,7 +371,17 @@ public class Packet : IDisposable
             throw new Exception("Could not read value of type 'string'!");
         }
     }
+    
+    public Vector2 ReadVector2(bool moveReadPos = true)
+    {
+        return new Vector2(ReadFloat(moveReadPos), ReadFloat(moveReadPos));
+    }
 
+    public Vector3 ReadVector3(bool moveReadPos = true)
+    {
+        return new Vector3(ReadFloat(moveReadPos), ReadFloat(moveReadPos), ReadFloat(moveReadPos));
+    }
+    
     #endregion
 
     private bool disposed = false;

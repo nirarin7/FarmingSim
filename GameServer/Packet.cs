@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Numerics;
 using System.Text;
 
 namespace GameServer
@@ -8,14 +9,15 @@ namespace GameServer
     public enum ServerPackets
     {
         welcome = 1,
-        udpTest
+        spawnPlayer,
+        playerPosition,
     }
 
     /// <summary>Sent from client to server.</summary>
     public enum ClientPackets
     {
         welcomeReceived = 1,
-        udpTestReceived
+        playerPosition
     }
 
     public class Packet : IDisposable
@@ -169,6 +171,23 @@ namespace GameServer
         {
             Write(_value.Length); // Add the length of the string to the packet
             buffer.AddRange(Encoding.ASCII.GetBytes(_value)); // Add the string itself
+        }
+
+        /// <summary>Adds a string to the packet.</summary>
+        /// <param name="_value">The string to add.</param>
+        public void Write(Vector2 _value)
+        {
+            Write(_value.X);
+            Write(_value.Y);
+        }
+
+        /// <summary>Adds a string to the packet.</summary>
+        /// <param name="_value">The string to add.</param>
+        public void Write(Vector3 _value)
+        {
+            Write(_value.X);
+            Write(_value.Y);
+            Write(_value.Z);
         }
 
         #endregion
@@ -353,6 +372,16 @@ namespace GameServer
             {
                 throw new Exception("Could not read value of type 'string'!");
             }
+        }
+
+        public Vector2 ReadVector2(bool moveReadPos = true)
+        {
+            return new Vector2(ReadFloat(moveReadPos), ReadFloat(moveReadPos));
+        }
+
+        public Vector3 ReadVector3(bool moveReadPos = true)
+        {
+            return new Vector3(ReadFloat(moveReadPos), ReadFloat(moveReadPos), ReadFloat(moveReadPos));
         }
 
         #endregion
