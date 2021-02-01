@@ -33,13 +33,5 @@ public class FarmManager : MonoBehaviour {
             plant.Grow();
     }
     
-    //remove plants after harvested
-    
-    private void RemoveHarvestedPlants() {
-        
-        Debug.Log("there are");
-        
-        
-
-    }
 }
+
