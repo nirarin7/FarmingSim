@@ -1,12 +1,10 @@
 using System;
-using System.Collections;
 using System.Collections.Generic;
 using System.Net;
 using System.Net.Sockets;
-using TMPro;
-using UnityEditor.Sprites;
+using GameServerLib.Enums;
+using GameServerLib.Packet;
 using UnityEngine;
-using UnityEngine.Timeline;
 
 public class Client : MonoBehaviour
 {
@@ -19,6 +17,7 @@ public class Client : MonoBehaviour
     public TCP tcp;
     public UDP udp;
 
+    private bool isConnected = false;
     private delegate void PacketHandler(Packet packet);
     private static Dictionary<int, PacketHandler> _packetHandlers;
 
@@ -35,6 +34,11 @@ public class Client : MonoBehaviour
         }
     }
 
+    private void OnApplicationQuit()
+    {
+        Disconnect();
+    }
+
     private void Start()
     {
         tcp = new TCP();
@@ -44,6 +48,7 @@ public class Client : MonoBehaviour
     public void ConnectToServer()
     {
         InitializeClientData();
+        isConnected = true;
         tcp.Connect();
     }
 
@@ -106,6 +111,7 @@ public class Client : MonoBehaviour
                 int byteLength = _stream.EndRead(result);
                 if (byteLength <= 0)
                 {
+                    Instance.Disconnect();
                     return;
                 }
 
@@ -119,6 +125,7 @@ public class Client : MonoBehaviour
             catch (Exception e)
             {
                 Console.WriteLine($"There was an error: {e.Message}, {e.StackTrace}");
+                Disconnect();
             }
         }
 
@@ -164,6 +171,15 @@ public class Client : MonoBehaviour
             }
 
             return false;
+        }
+
+        public void Disconnect()
+        {
+            Instance.Disconnect();
+            _stream = null;
+            _recieveData = null;
+            _receiveBuffer = null;
+            socket = null;
         }
     }
 
@@ -215,16 +231,16 @@ public class Client : MonoBehaviour
 
                 if (data.Length < 4)
                 {
-                    // disconnect
+                    Instance.Disconnect();
                     return;
                 }
 
                 HandleData(data);
 
             }
-            catch (Exception e)
+            catch (Exception)
             {
-                Console.WriteLine(e);
+                Disconnect();
             }
         }
 
@@ -245,6 +261,13 @@ public class Client : MonoBehaviour
                 }
             });
         }
+
+        private void Disconnect()
+        {
+            Instance.Disconnect();
+            EndPoint = null;
+            Socket = null;
+        }
     }
     
     
@@ -252,9 +275,22 @@ public class Client : MonoBehaviour
     {
         _packetHandlers = new Dictionary<int, PacketHandler>()
         {
-            {(int) ServerPackets.welcome, ClientHandle.Welcome},
-            {(int) ServerPackets.udpTest, ClientHandle.UdpTest}
+            {(int) ServerPackets.Welcome, ClientHandle.Welcome},
+            {(int) ServerPackets.SpawnPlayer, ClientHandle.SpawnPlayer},
+            {(int) ServerPackets.PlayerPosition, ClientHandle.PlayerPosition}
         };
         Debug.Log("Initialized packet handlers");
+    }
+
+    private void Disconnect()
+    {
+        if (isConnected)
+        {
+            isConnected = false;
+            tcp.socket.Close();
+            udp.Socket.Close();
+            
+            Debug.Log("Disconnected from server.");
+        }
     }
 }

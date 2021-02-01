@@ -1,5 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
+using GameServerLib.Enums;
+using GameServerLib.Packet;
 using UnityEngine;
 
 public class ClientSend : MonoBehaviour
@@ -18,20 +20,19 @@ public class ClientSend : MonoBehaviour
 
     public static void WelcomeReceived()
     {
-        using (Packet packet = new Packet((int)ClientPackets.welcomeReceived))
+        using (Packet packet = new Packet((int)ClientPackets.WelcomeReceived))
         {
             packet.Write(Client.Instance.id);
             packet.Write(UiManager.instance.username.text);
             SendTCPData(packet);
         }
-        
     }
 
-    public static void UdpTestRecieve()
+    public static void PlayerPosition(Vector2 position)
     {
-        using (Packet packet = new Packet((int) ClientPackets.udpTestReceived))
+        using (Packet packet = new Packet((int) ClientPackets.PlayerPosition))
         {
-            packet.Write("Received a UDP Packet");
+            packet.Write(new GameServerLib.DataModels.Vector2(position.x, position.y));
             SendUDPData(packet);
         }
     }

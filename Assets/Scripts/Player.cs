@@ -24,14 +24,26 @@ public class Player : MonoBehaviour
 
     private void FixedUpdate()
     {
+        var position = Move();
+        gameObject.transform.position = position;
+        SendPositionToServer(position);
+    }
+
+    private Vector2 Move()
+    {
         var moveHorizontal = Input.GetAxis("Horizontal");
         var moveVertical = Input.GetAxis("Vertical");
 
         _animator.SetFloat("HorizontalDirection", moveHorizontal);
         _animator.SetFloat("VerticalDirection", moveVertical);
-        
+
         var movement = new Vector2(moveHorizontal, moveVertical) * speed;
         var position = transform.position;
-        transform.position = new Vector3(position.x + movement.x, position.y + movement.y);
+        return new Vector2(position.x + movement.x, position.y + movement.y);
+    }
+
+    private void SendPositionToServer(Vector2 position)
+    {
+        ClientSend.PlayerPosition(position);
     }
 }
