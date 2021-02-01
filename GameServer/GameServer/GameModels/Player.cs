@@ -1,5 +1,5 @@
-﻿using System.Numerics;
-using GameServer.Server;
+﻿using GameServer.Server;
+using GameServerLib.DataModels;
 
 namespace GameServer.GameModels
 {

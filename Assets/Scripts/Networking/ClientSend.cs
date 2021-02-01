@@ -1,5 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
+using GameServerLib.Enums;
+using GameServerLib.Packet;
 using UnityEngine;
 
 public class ClientSend : MonoBehaviour
@@ -30,7 +32,7 @@ public class ClientSend : MonoBehaviour
     {
         using (Packet packet = new Packet((int) ClientPackets.PlayerPosition))
         {
-            packet.Write(position);
+            packet.Write(new GameServerLib.DataModels.Vector2(position.x, position.y));
             SendUDPData(packet);
         }
     }

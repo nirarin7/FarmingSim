@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Net;
 using System.Net.Sockets;
-using System.Numerics;
 using GameServer.GameModels;
 using GameServer.Server;
+using GameServerLib.DataModels;
 using GameServerLib.Packet;
 
 namespace GameServer.Client
@@ -64,7 +64,7 @@ namespace GameServer.Client
                 }
                 catch (Exception e)
                 {
-                    Console.WriteLine($"Error when sending data to player {_id} via TCP.");
+                    Console.WriteLine($"Error when sending data to player {_id} via TCP. Ex: {e.Message}, Stack {e.StackTrace}");
                     throw;
                 }
             }

@@ -1,8 +1,7 @@
 using System.Collections;
-using System.Collections.Generic;
 using System.Net;
+using GameServerLib.Packet;
 using UnityEngine;
-using Vector3 = System.Numerics.Vector3;
 
 public class ClientHandle : MonoBehaviour
 {
@@ -21,7 +20,8 @@ public class ClientHandle : MonoBehaviour
     {
         int id = packet.ReadInt();
         string username = packet.ReadString();
-        Vector2 position = packet.ReadVector2();
+        GameServerLib.DataModels.Vector2 pVector = packet.ReadVector2();
+        Vector2 position = new Vector2(pVector.X, pVector.Y);
         
         GameManager.Instance.SpawnPlayer(id, username, position);
     }
@@ -29,7 +29,9 @@ public class ClientHandle : MonoBehaviour
     public static void PlayerPosition(Packet packet)
     {
         int id = packet.ReadInt();
-        Vector2 position = packet.ReadVector2();
+        GameServerLib.DataModels.Vector2 pVector = packet.ReadVector2();
+        Vector2 position = new Vector2(pVector.X, pVector.Y);
+        // Vector2 position = packet.ReadVector2();
 
 
         if (!GameManager.players[id].isLocal)

@@ -2,6 +2,8 @@ using System;
 using System.Collections.Generic;
 using System.Net;
 using System.Net.Sockets;
+using GameServerLib.Enums;
+using GameServerLib.Packet;
 using UnityEngine;
 
 public class Client : MonoBehaviour

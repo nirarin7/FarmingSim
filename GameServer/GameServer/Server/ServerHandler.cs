@@ -1,6 +1,6 @@
 ﻿using System;
-using System.Numerics;
 using GameServer.GameModels;
+using GameServerLib.DataModels;
 using GameServerLib.Packet;
 
 namespace GameServer.Server
