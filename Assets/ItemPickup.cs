@@ -17,7 +17,7 @@ public class ItemPickup : MonoBehaviour {
     private void Awake() {
         _itemPosition = gameObject.transform.position;
         
-        // fruit moves from plant to ground
+        // moves from source to ground
         var xEnd = Random.Range(_itemPosition.x - dropOffSet, _itemPosition.x + dropOffSet);
         var yEnd = Random.Range(_itemPosition.y - dropOffSet, _itemPosition.y + dropOffSet);
 
@@ -58,7 +58,7 @@ public class ItemPickup : MonoBehaviour {
             var inRangeMinY = _playerPosition.y - inRangeOffset;
             var inRangeMaxY = _playerPosition.y + inRangeOffset;
 
-            // fruit disappears when in player range
+            // item disappears when in player range
             if (_itemPosition.x <= inRangeMaxX && _itemPosition.x >= inRangeMinX && _itemPosition.y <= inRangeMaxY &&
                 _itemPosition.y >= inRangeMinY) {
                 AddToPlayer();

@@ -20,11 +20,13 @@ public class Plant : MonoBehaviour {
     public int maxHarvestItemNumber;
     public int minHarvestItemNumber;
     public int totalHarvestNumber;
+    
 
 
     private int _totalSpritesCount;
     private SpriteRenderer _spriteRenderer;
-
+    private GameObject _plant;
+    
     // Start is called before the first frame update
     void Start() {
         _spriteRenderer = GetComponent<SpriteRenderer>();
