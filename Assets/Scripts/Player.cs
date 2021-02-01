@@ -2,10 +2,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Object = UnityEngine.Object;
 
 public class Player : MonoBehaviour
 {
     public float speed = .5f;
+    public bool isOnline = false;
+    public GameObject plant;
+    public GameObject equippedItem;
 
     private Rigidbody2D _rigidbody;
     private Animator _animator;
@@ -44,6 +48,16 @@ public class Player : MonoBehaviour
 
     private void SendPositionToServer(Vector2 position)
     {
-        ClientSend.PlayerPosition(position);
+        if (isOnline) {
+            ClientSend.PlayerPosition(position);
+        }
+    }
+
+    public string getTool() {
+        return "Plow";
+    }
+
+    public GameObject getPlant() {
+        return plant;
     }
 }
