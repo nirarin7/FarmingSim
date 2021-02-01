@@ -35,17 +35,21 @@ public class InteractableGroundTile : MonoBehaviour {
 
     private void OnMouseDown() {
         var playerGameObject = GameObject.FindWithTag("Player");
-        if (playerGameObject != null) {
-            var player = playerGameObject.GetComponent<Player>();
-            if (player != null) {
-                if (isPlowed && player.getPlant() != null) {
-                    plant = Instantiate(player.getPlant(), gameObject.transform.position, Quaternion.identity);
-                }
-                if (player.getTool() == "Plow") {
-                    _spriteRenderer.sprite = plowedGroundSprite;
-                    isPlowed = true;
-                }
-            }
+        if (playerGameObject == null) return;
+        
+        var player = playerGameObject.GetComponent<Player>();
+        if (player != null) {
+            //todo: remove debug 
+            if (player.getPlant() == null) 
+                Debug.Log("Player is missing a plant gameobject.");
+
+            if (isPlowed && player.getPlant() != null && plant == null)
+                plant = Instantiate(player.getPlant(), gameObject.transform.position, Quaternion.identity);
+        }
+
+        if (player.getTool() == "Plow") {
+            _spriteRenderer.sprite = plowedGroundSprite;
+            isPlowed = true;
         }
     }
 }
