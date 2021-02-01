@@ -97,7 +97,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   plantName: Carrot
-  type: Veg
+  harvestType: 0
   numberOfDaysGrown: 0
   harvestTimeDays: 8
   growingSprites:
@@ -107,9 +107,8 @@ MonoBehaviour:
   - {fileID: 7055885797876016272, guid: fff7a1bc0bf3fe1449e09d111b25f060, type: 3}
   harvestSprite: {fileID: -6765612774006472302, guid: fff7a1bc0bf3fe1449e09d111b25f060,
     type: 3}
-  harvestItem: {fileID: 0}
+  harvestItem: {fileID: 8945043278089480576, guid: fd4f78ee7d434984f999fd0a694aaad2,
+    type: 3}
   maxHarvestItemNumber: 1
   minHarvestItemNumber: 1
-  totalHarvestNumber: 0
-  dropOffSetX: 3
-  dropOffSetY: 2
+  totalHarvestNumber: 1
