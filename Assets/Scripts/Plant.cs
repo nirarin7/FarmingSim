@@ -1,14 +1,8 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.Numerics;
+﻿using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
-using UnityEngine.Serialization;
-using Quaternion = UnityEngine.Quaternion;
-using Random = UnityEngine.Random;
-using Vector2 = UnityEngine.Vector2;
 
-public class Plant : MonoBehaviour {
+public class Plant : MonoBehaviour, IDestroyable {
     // Plant attributes (instance variables)
     public string plantName;
     public HarvestType harvestType;
@@ -20,8 +14,7 @@ public class Plant : MonoBehaviour {
     public int maxHarvestItemNumber;
     public int minHarvestItemNumber;
     public int totalHarvestNumber;
-    
-
+    public bool HasBeenDestroyed { get; set; }
 
     private int _totalSpritesCount;
     private SpriteRenderer _spriteRenderer;
@@ -40,7 +33,7 @@ public class Plant : MonoBehaviour {
     public void Grow() {
         numberOfDaysGrown++;
 
-        if (numberOfDaysGrown >= harvestTimeDays)
+        if (IsReadyToHarvest())
             _spriteRenderer.sprite = harvestSprite;
         else
             _spriteRenderer.sprite = growingSprites[CalculateSpriteIndex()];
@@ -49,7 +42,6 @@ public class Plant : MonoBehaviour {
     private int CalculateSpriteIndex() {
         return (int) ((_totalSpritesCount / (float) harvestTimeDays) * numberOfDaysGrown);
     }
-
 
     public void Harvest() {
         Debug.Log("Item dropped");
@@ -69,13 +61,24 @@ public class Plant : MonoBehaviour {
 
         if (harvestType == HarvestType.SingleHarvest) {
             Debug.Log("this is a single harvest plant");
-            Destroy(gameObject);
+            RemoveFromGame();
         }
         else if (harvestType == HarvestType.MulitpleHarvest) {
             numberOfDaysGrown = (harvestTimeDays / 2) + 3;
+            _spriteRenderer.sprite = growingSprites.Last();
             Grow();
             // after 'season' ends, destroy the plant?
         }
+    }
+
+    public bool IsReadyToHarvest() {
+        return numberOfDaysGrown >= harvestTimeDays;
+    }
+
+    public void RemoveFromGame() {
+        HasBeenDestroyed = true;
+        gameObject.SetActive(false);
+        Destroy(gameObject);
     }
 }
 

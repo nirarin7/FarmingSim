@@ -1,6 +1,3 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class InteractableGroundTile : MonoBehaviour {
@@ -11,7 +8,7 @@ public class InteractableGroundTile : MonoBehaviour {
     private Sprite _baseGround;
     private Color _highlightedColor = Color.red;
     private Color _defaultColor;
-    private bool isPlowed = false;
+    public bool isPlowed = false;
 
     // Start is called before the first frame update
     void Start() {
@@ -22,34 +19,38 @@ public class InteractableGroundTile : MonoBehaviour {
         }
     }
 
-    // Update is called once per frame
-    void Update() { }
-
-    void OnMouseEnter() {
-        _spriteRenderer.color = _highlightedColor;
-    }
-
-    void OnMouseExit() {
-        _spriteRenderer.color = _defaultColor;
-    }
-
-    private void OnMouseDown() {
-        var playerGameObject = GameObject.FindWithTag("Player");
-        if (playerGameObject == null) return;
-        
-        var player = playerGameObject.GetComponent<Player>();
-        if (player != null) {
-            //todo: remove debug 
-            if (player.getPlant() == null) 
-                Debug.Log("Player is missing a plant gameobject.");
-
-            if (isPlowed && player.getPlant() != null && plant == null)
-                plant = Instantiate(player.getPlant(), gameObject.transform.position, Quaternion.identity);
+    public void Interact(GameObject item) {
+        if (item == null) {
+            Debug.Log("Interacting with null item");
+            return;
         }
 
-        if (player.getTool() == "Plow") {
+
+        var playerPlant = item.GetComponent<Plant>();
+        if (playerPlant != null) {
+            if (isPlowed && plant == null)
+                plant = Instantiate(item, gameObject.transform.position, Quaternion.identity);
+        }
+
+        var shovel = item.GetComponent<Shovel>();
+        if (!isPlowed && shovel != null) {
             _spriteRenderer.sprite = plowedGroundSprite;
             isPlowed = true;
         }
+
+        if (plant != null) {
+            var plantScript = plant.GetComponent<Plant>();
+            if (plantScript != null && plantScript.IsReadyToHarvest()) {
+                plantScript.Harvest();
+
+                if (plantScript.HasBeenDestroyed) {
+                    plant = null;
+                }
+            }
+        }
+    }
+
+    public void Interact(string item) {
+        
     }
 }

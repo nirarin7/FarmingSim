@@ -7987,10 +7987,39 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 6648466537663073178, guid: 87a58f52a5287b84a9bf3104174f2128,
         type: 3}
+      propertyPath: item0
+      value: 
+      objectReference: {fileID: 3437020275353575589, guid: 48d04a8bc8c4e8140857c4eec3185030,
+        type: 3}
+    - target: {fileID: 6648466537663073178, guid: 87a58f52a5287b84a9bf3104174f2128,
+        type: 3}
+      propertyPath: item1
+      value: 
+      objectReference: {fileID: 3437020275353575589, guid: 48d04a8bc8c4e8140857c4eec3185030,
+        type: 3}
+    - target: {fileID: 6648466537663073178, guid: 87a58f52a5287b84a9bf3104174f2128,
+        type: 3}
+      propertyPath: item2
+      value: 
+      objectReference: {fileID: 1211499728462232483, guid: 489ffc8e71409194f980279c7ab033f6,
+        type: 3}
+    - target: {fileID: 6648466537663073178, guid: 87a58f52a5287b84a9bf3104174f2128,
+        type: 3}
+      propertyPath: item3
+      value: 
+      objectReference: {fileID: 7811169490156667317, guid: d2eb75721c328bf40bb1111cedc124fe,
+        type: 3}
+    - target: {fileID: 6648466537663073178, guid: 87a58f52a5287b84a9bf3104174f2128,
+        type: 3}
       propertyPath: plant
       value: 
       objectReference: {fileID: 7811169490156667317, guid: d2eb75721c328bf40bb1111cedc124fe,
         type: 3}
+    - target: {fileID: 6648466537663073178, guid: 87a58f52a5287b84a9bf3104174f2128,
+        type: 3}
+      propertyPath: equippedItem
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 6907957970476846268, guid: 87a58f52a5287b84a9bf3104174f2128,
         type: 3}
       propertyPath: m_Name
@@ -8119,6 +8148,28 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1439882145 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6907957970476846268, guid: 87a58f52a5287b84a9bf3104174f2128,
+    type: 3}
+  m_PrefabInstance: {fileID: 1046928449}
+  m_PrefabAsset: {fileID: 0}
+--- !u!70 &1439882152
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1439882145}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 0.85, y: 1.25}
+  m_Direction: 0
 --- !u!1 &1509008636
 GameObject:
   m_ObjectHideFlags: 0

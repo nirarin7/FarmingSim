@@ -17,7 +17,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &6955042084011348155
 Transform:
   m_ObjectHideFlags: 0
@@ -71,7 +71,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 664878647
   m_SortingLayer: 1
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 2723419473824185703, guid: fff7a1bc0bf3fe1449e09d111b25f060,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -97,7 +97,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   plantName: Tomato
-  type: Fruit
+  harvestType: 1
   numberOfDaysGrown: 0
   harvestTimeDays: 14
   growingSprites:
@@ -112,5 +112,3 @@ MonoBehaviour:
   maxHarvestItemNumber: 8
   minHarvestItemNumber: 3
   totalHarvestNumber: 0
-  dropOffSetX: 3
-  dropOffSetY: 2
