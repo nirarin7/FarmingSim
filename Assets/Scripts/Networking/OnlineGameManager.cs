@@ -1,8 +1,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GameManager : MonoBehaviour {
-    public static GameManager Instance;
+public class OnlineGameManager : MonoBehaviour {
+    public static OnlineGameManager Instance;
 
     public static Dictionary<int, Player> players = new Dictionary<int, Player>();
 

@@ -11,8 +11,7 @@ GameObject:
   - component: {fileID: 6874896981273749070}
   - component: {fileID: 2124918597244199738}
   - component: {fileID: 8370494695950217657}
-  - component: {fileID: 7848274117867096537}
-  m_Layer: 9
+  m_Layer: 0
   m_Name: Camera
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -84,18 +83,6 @@ AudioListener:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2007786929435462332}
   m_Enabled: 1
---- !u!114 &7848274117867096537
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2007786929435462332}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18abe737797991a42be415ab966773ef, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &4497809586103752093
 GameObject:
   m_ObjectHideFlags: 0
@@ -109,9 +96,8 @@ GameObject:
   - component: {fileID: 4463783868178944699}
   - component: {fileID: 7040976490862713838}
   - component: {fileID: 7040976490862713841}
-  - component: {fileID: 8727028520111810498}
   m_Layer: 9
-  m_Name: LocalPlayer 1
+  m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -245,18 +231,3 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &8727028520111810498
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4497809586103752093}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 960bd63b614369e4799ee911c5302aa2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  id: 1
-  username: Taylor
-  isLocal: 0

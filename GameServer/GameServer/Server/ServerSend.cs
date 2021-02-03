@@ -91,7 +91,7 @@ namespace GameServer.Server
                 packet.Write(player.Position);
                 packet.Write(player.Direction);
                 
-                SendUDPDataToAll(packet);
+                SendUDPDataToAll(player.Id, packet);
             }
         }
 
