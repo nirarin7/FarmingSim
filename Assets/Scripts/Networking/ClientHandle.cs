@@ -29,14 +29,19 @@ public class ClientHandle : MonoBehaviour
     public static void PlayerPosition(Packet packet)
     {
         int id = packet.ReadInt();
+        Player player = GameManager.players[id];
+
+        // TODO: have the server not send packet to the player who sent the packet
+        if (player.GetType() != typeof(OnlinePlayer)) return;
+        
         GameServerLib.DataModels.Vector2 pVector = packet.ReadVector2();
+        GameServerLib.DataModels.Vector2 dVector = packet.ReadVector2();
+            
         Vector2 position = new Vector2(pVector.X, pVector.Y);
-        // Vector2 position = packet.ReadVector2();
-
-
-        if (!GameManager.players[id].isLocal)
-        {
-            GameManager.players[id].transform.position = position;
-        }
+        Vector2 direction = new Vector2(dVector.X, dVector.Y);
+            
+                
+        player.SetPosition(position);
+        player.SetDirection(direction);
     }
 }

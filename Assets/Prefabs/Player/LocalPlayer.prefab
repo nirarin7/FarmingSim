@@ -10,10 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 6907957970476846270}
   - component: {fileID: 6907957970476846269}
-  - component: {fileID: 6648466537663073178}
   - component: {fileID: 1059701455}
   - component: {fileID: 1059701456}
-  - component: {fileID: 1777286758415859427}
+  - component: {fileID: -1865301745305323913}
   m_Layer: 9
   m_Name: LocalPlayer
   m_TagString: Player
@@ -88,20 +87,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &6648466537663073178
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6907957970476846268}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a1c0d8248c57f374a9b01195ee865d91, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 0.12
-  isOnline: 0
 --- !u!50 &1059701455
 Rigidbody2D:
   serializedVersion: 4
@@ -142,7 +127,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &1777286758415859427
+--- !u!114 &-1865301745305323913
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -151,11 +136,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 6907957970476846268}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 960bd63b614369e4799ee911c5302aa2, type: 3}
+  m_Script: {fileID: 11500000, guid: 6c9c50ef884942f5ad4c605b4b590b68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  id: 1
-  username: Taylor
+  speed: 0.3
+  plant: {fileID: 0}
+  equippedItem: {fileID: 0}
+  item1: {fileID: 0}
+  item2: {fileID: 0}
+  item3: {fileID: 0}
+  Id: 1
+  username: taylor
   isLocal: 0
 --- !u!1 &8821290819944846237
 GameObject:

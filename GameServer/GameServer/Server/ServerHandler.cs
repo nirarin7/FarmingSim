@@ -21,12 +21,13 @@ namespace GameServer.Server
             GameServer.Clients[clientId].SendIntoGame(username);
         }
         
-        
         public static void PlayerMovement(int clientId, Packet packet)
         {
             Vector2 position = new Vector2(packet.ReadFloat(), packet.ReadFloat());
+            Vector2 direction = new Vector2(packet.ReadFloat(), packet.ReadFloat());
             Player player = GameServer.Clients[clientId].Player;
             player?.SetPosition(position);
+            player?.SetDirection(direction);
         }
     }
 }

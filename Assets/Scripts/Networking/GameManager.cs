@@ -7,7 +7,7 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager Instance;
 
-    public static Dictionary<int, PlayerManager> players = new Dictionary<int, PlayerManager>();
+    public static Dictionary<int, Player> players = new Dictionary<int, Player>();
 
     public GameObject localPlayerPrefab;
     public GameObject playerPrefab;
@@ -37,10 +37,10 @@ public class GameManager : MonoBehaviour
         {
             player = Instantiate(playerPrefab, position, Quaternion.identity);
         }
-        PlayerManager playerManager = player.GetComponent<PlayerManager>();
-        playerManager.id = id;
-        playerManager.username = username;
-        playerManager.isLocal = isLocal;
-        players.Add(id, playerManager);
+        Player serverPlayer = player.GetComponent<Player>();
+        serverPlayer.Id = id;
+        serverPlayer.username = username;
+        serverPlayer.isLocal = isLocal;
+        players.Add(id, serverPlayer);
     }
 }

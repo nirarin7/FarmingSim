@@ -1,53 +1,62 @@
 ﻿using UnityEngine;
 
 public class Player : MonoBehaviour {
+    
     public float speed = .5f;
-    public bool isOnline = false;
     public GameObject plant;
     public GameObject equippedItem;
     public GameObject item1;
     public GameObject item2;
     public GameObject item3;
 
-    private Rigidbody2D _rigidbody;
-    private Animator _animator;
     private Camera _mainCamera;
+
+    protected Animator Animator;
+    protected float MoveHorizontal;
+    protected float MoveVertical;
+    public int Id;
+    public string username;
+    public bool isLocal;
+
+    protected static readonly int HorizontalDirection = Animator.StringToHash("HorizontalDirection");
+    protected static readonly int VerticalDirection = Animator.StringToHash("VerticalDirection");
 
     // Start is called before the first frame update
     void Start() {
-        _rigidbody = GetComponent<Rigidbody2D>();
-        _animator = GetComponent<Animator>();
+        Animator = GetComponent<Animator>();
         _mainCamera = GetComponentInChildren<Camera>();
     }
 
     // Update is called once per frame
-    void Update() {
+    protected virtual void Update() {
         EquipItem();
         MouseOverObjects();
-        if(equippedItem != null)
+        if (equippedItem != null)
             equippedItem.transform.position = gameObject.transform.position + new Vector3(.6f, 0f);
     }
 
     private void EquipItem() {
         if (Input.GetKeyDown(KeyCode.Alpha1)) {
-            
-            if(equippedItem != null)
+            if (equippedItem != null)
                 equippedItem.SetActive(false);
-            equippedItem = Instantiate(item1, gameObject.transform.position + new Vector3(.6f,0f), Quaternion.identity);
+            equippedItem = Instantiate(item1, gameObject.transform.position + new Vector3(.6f, 0f),
+                Quaternion.identity);
             equippedItem.SetActive(true);
         }
 
         if (Input.GetKeyDown(KeyCode.Alpha2)) {
-            if(equippedItem != null)
+            if (equippedItem != null)
                 equippedItem.SetActive(false);
-            equippedItem = Instantiate(item2, gameObject.transform.position + new Vector3(.6f,0f), Quaternion.identity);
+            equippedItem = Instantiate(item2, gameObject.transform.position + new Vector3(.6f, 0f),
+                Quaternion.identity);
             equippedItem.SetActive(true);
         }
 
         if (Input.GetKeyDown(KeyCode.Alpha3)) {
-            if(equippedItem != null)
+            if (equippedItem != null)
                 equippedItem.SetActive(false);
-            equippedItem = Instantiate(item3, gameObject.transform.position + new Vector3(.6f,0f), Quaternion.identity);
+            equippedItem = Instantiate(item3, gameObject.transform.position + new Vector3(.6f, 0f),
+                Quaternion.identity);
             equippedItem.SetActive(true);
         }
     }
@@ -78,38 +87,28 @@ public class Player : MonoBehaviour {
         return distance < offset;
     }
 
-    private void FixedUpdate() {
+    protected virtual void FixedUpdate() {
         gameObject.transform.position = Move();
-        if (isOnline) {
-            SendDataToServer();
-        }
     }
 
-    private void SendDataToServer() {
-        SendPositionToServer(gameObject.transform.position);
-    }
+
 
     private Vector2 Move() {
-        var moveHorizontal = Input.GetAxis("Horizontal");
-        var moveVertical = Input.GetAxis("Vertical");
+        MoveHorizontal = Input.GetAxis("Horizontal");
+        MoveVertical = Input.GetAxis("Vertical");
 
-        _animator.SetFloat("HorizontalDirection", moveHorizontal);
-        _animator.SetFloat("VerticalDirection", moveVertical);
+        Animator.SetFloat(HorizontalDirection, MoveHorizontal);
+        Animator.SetFloat(VerticalDirection, MoveVertical);
 
-        var movement = new Vector2(moveHorizontal, moveVertical) * speed;
+        var movement = new Vector2(MoveHorizontal, MoveVertical) * speed;
         var position = transform.position;
         return new Vector2(position.x + movement.x, position.y + movement.y);
     }
 
-    private void SendPositionToServer(Vector2 position) {
-        ClientSend.PlayerPosition(position);
+
+    public virtual void SetPosition(Vector2 position) {
     }
 
-    public string getTool() {
-        return "Plow";
-    }
-
-    public GameObject getPlant() {
-        return plant;
+    public virtual void SetDirection(Vector2 direction) {
     }
 }

@@ -4,5 +4,6 @@
         Welcome = 1,
         SpawnPlayer,
         PlayerPosition,
+        PlayerDirection,
     }
 }

@@ -89,10 +89,17 @@ namespace GameServer.Server
             {
                 packet.Write(player.Id);
                 packet.Write(player.Position);
+                packet.Write(player.Direction);
                 
                 SendUDPDataToAll(packet);
             }
         }
-        
+
+        public static void PlayerDirection(Player player) {
+            using (Packet packet = new Packet((int) ServerPackets.PlayerDirection)) {
+                packet.Write(player.Id);
+                
+            }
+        }
     }
 }

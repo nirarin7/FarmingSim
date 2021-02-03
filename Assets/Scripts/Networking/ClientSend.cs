@@ -28,11 +28,12 @@ public class ClientSend : MonoBehaviour
         }
     }
 
-    public static void PlayerPosition(Vector2 position)
+    public static void PlayerPosition(Vector2 position, Vector2 direction)
     {
         using (Packet packet = new Packet((int) ClientPackets.PlayerPosition))
         {
             packet.Write(new GameServerLib.DataModels.Vector2(position.x, position.y));
+            packet.Write(new GameServerLib.DataModels.Vector2(direction.x, direction.y));
             SendUDPData(packet);
         }
     }
