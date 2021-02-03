@@ -1,10 +1,8 @@
 ﻿using GameServer.Server;
 using GameServerLib.DataModels;
 
-namespace GameServer.GameModels
-{
-    public class Player
-    {
+namespace GameServer.GameModels {
+    public class Player {
         public int Id { get; private set; }
         public string Username { get; private set; }
 
@@ -13,16 +11,14 @@ namespace GameServer.GameModels
 
         // private float moveSpeed = 5f / Constants.TIC_PER_SEC;
 
-        public Player(int id, string username, Vector2 position)
-        {
+        public Player(int id, string username, Vector2 position) {
             Position = position;
             Id = id;
             Username = username;
             Direction = Vector2.Zero;
         }
 
-        public void Update()
-        {
+        public void Update() {
             ServerSend.PlayerPosition(this);
             // ServerSend.PlayerDirection(this);
         }
@@ -31,8 +27,7 @@ namespace GameServer.GameModels
             Direction = direction;
         }
 
-        public void SetPosition(Vector2 position)
-        {
+        public void SetPosition(Vector2 position) {
             Position = position;
         }
     }
