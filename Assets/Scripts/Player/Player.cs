@@ -71,8 +71,9 @@ public class Player : MonoBehaviour {
             Debug.Log("Camera is not attached to player.");
             return;
         }
-
-        RaycastHit2D hit = Physics2D.GetRayIntersection(_mainCamera.ScreenPointToRay(Input.mousePosition));
+        
+        LayerMask mask = LayerMask.GetMask("Player");
+        RaycastHit2D hit = Physics2D.GetRayIntersection(_mainCamera.ScreenPointToRay(Input.mousePosition),15F, mask);
         var isPointNearPlayer = IsPointNearPlayer(hit.point.x, hit.point.y, 4.5f);
         if (isPointNearPlayer) {
             if (hit.collider != null) {

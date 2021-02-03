@@ -2,7 +2,7 @@
 using System.Linq;
 using UnityEngine;
 
-public class Plant : MonoBehaviour, IDestroyable {
+public class Plant : MonoBehaviour, IDestroyable, IMaturable {
     // Plant attributes (instance variables)
     public string plantName;
     public HarvestType harvestType;
@@ -30,7 +30,7 @@ public class Plant : MonoBehaviour, IDestroyable {
     void Update() {
     }
 
-    public void Grow() {
+    public void Matures() {
         numberOfDaysGrown++;
 
         if (IsReadyToHarvest())
@@ -66,7 +66,6 @@ public class Plant : MonoBehaviour, IDestroyable {
         else if (harvestType == HarvestType.MulitpleHarvest) {
             numberOfDaysGrown = (harvestTimeDays / 2) + 3;
             _spriteRenderer.sprite = growingSprites.Last();
-            Grow();
             // after 'season' ends, destroy the plant?
         }
     }
