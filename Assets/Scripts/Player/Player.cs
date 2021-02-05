@@ -16,6 +16,7 @@ public class Player : MonoBehaviour {
     public int Id;
     public string username;
     public bool isLocal;
+    public Inventory Inventory = new Inventory();
 
     protected static readonly int HorizontalDirection = Animator.StringToHash("HorizontalDirection");
     protected static readonly int VerticalDirection = Animator.StringToHash("VerticalDirection");
@@ -32,6 +33,10 @@ public class Player : MonoBehaviour {
         MouseOverObjects();
         if (equippedItem != null)
             equippedItem.transform.position = gameObject.transform.position + new Vector3(.6f, 0f);
+    }
+
+    protected virtual void FixedUpdate() {
+        gameObject.transform.position = Move();
     }
 
     private void EquipItem() {
@@ -87,10 +92,6 @@ public class Player : MonoBehaviour {
     private bool IsPointNearPlayer(float pointX, float pointY, float offset) {
         var distance = Vector3.Distance(gameObject.transform.position, new Vector3(pointX, pointY, 0f));
         return distance < offset;
-    }
-
-    protected virtual void FixedUpdate() {
-        gameObject.transform.position = Move();
     }
 
 

@@ -19,15 +19,15 @@ public class ClientHandle : MonoBehaviour {
         GameServerLib.DataModels.Vector2 pVector = packet.ReadVector2();
         Vector2 position = new Vector2(pVector.X, pVector.Y);
 
-        GameManager.Instance.SpawnPlayer(id, username, position);
+        OnlineGameManager.Instance.SpawnPlayer(id, username, position);
     }
 
     public static void PlayerPosition(Packet packet) {
         int id = packet.ReadInt();
-        Player player = GameManager.players[id];
+        Player player = OnlineGameManager.players[id];
 
         // TODO: have the server not send packet to the player who sent the packet
-        if (player.GetType() != typeof(OnlinePlayer)) return;
+        if (player.GetType() == typeof(LocalPlayer)) return;
 
         GameServerLib.DataModels.Vector2 pVector = packet.ReadVector2();
         GameServerLib.DataModels.Vector2 dVector = packet.ReadVector2();
