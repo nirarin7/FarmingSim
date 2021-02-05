@@ -107,8 +107,9 @@ MonoBehaviour:
   - {fileID: -6685149105780896793, guid: fff7a1bc0bf3fe1449e09d111b25f060, type: 3}
   harvestSprite: {fileID: -2146407093769027070, guid: fff7a1bc0bf3fe1449e09d111b25f060,
     type: 3}
-  harvestItem: {fileID: 2511119984919191525, guid: c0369d4b416daf742baaeec7c66e406c,
+  harvestItem: {fileID: 3426605889137820023, guid: 57bfd2f44b92b6b42b5b1167d59a3b50,
     type: 3}
+  harvestItemData: {fileID: 11400000, guid: f11b3468c4d168745bb84a53c9c83c80, type: 2}
   maxHarvestItemNumber: 8
   minHarvestItemNumber: 3
   totalHarvestNumber: 0

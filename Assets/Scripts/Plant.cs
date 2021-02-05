@@ -1,77 +1,78 @@
-﻿using System.Collections.Generic;
-using System.Linq;
+﻿using System.Linq;
+using ScriptableObjects;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 public class Plant : MonoBehaviour, IDestroyable, IMaturable {
-    // Plant attributes (instance variables)
-    public string plantName;
-    public HarvestType harvestType;
-    public int numberOfDaysGrown;
-    public int harvestTimeDays;
-    public List<Sprite> growingSprites;
-    public Sprite harvestSprite;
     public GameObject harvestItem;
-    public int maxHarvestItemNumber;
-    public int minHarvestItemNumber;
-    public int totalHarvestNumber;
+    public PlantData plantData;
+
     public bool HasBeenDestroyed { get; set; }
 
+    private int _numberOfDaysGrown;
     private int _totalSpritesCount;
     private SpriteRenderer _spriteRenderer;
-    private GameObject _plant;
-    
-    // Start is called before the first frame update
-    void Start() {
+
+    private void Awake() {
+        if (!plantData) {
+            Debug.Log($"There is no plant data attached to the plant: {gameObject.name}.");
+            return;
+        }
+
         _spriteRenderer = GetComponent<SpriteRenderer>();
-        _totalSpritesCount = growingSprites.Count;
+        if (_spriteRenderer)
+            _spriteRenderer.sprite = plantData.SeedSprite;
+
+
+        _totalSpritesCount = plantData.GrowingSprites.Count;
     }
+
+    // Start is called before the first frame update
+    void Start() { }
 
     // Update is called once per frame
-    void Update() {
-    }
+    void Update() { }
 
     public void Matures() {
-        numberOfDaysGrown++;
+        _numberOfDaysGrown++;
 
         if (IsReadyToHarvest())
-            _spriteRenderer.sprite = harvestSprite;
+            _spriteRenderer.sprite = plantData.HarvestSprite;
         else
-            _spriteRenderer.sprite = growingSprites[CalculateSpriteIndex()];
+            _spriteRenderer.sprite = plantData.GrowingSprites[CalculateSpriteIndex()];
     }
 
     private int CalculateSpriteIndex() {
-        return (int) ((_totalSpritesCount / (float) harvestTimeDays) * numberOfDaysGrown);
+        return (int) ((_totalSpritesCount / (float) plantData.GrowthTimeDays) * _numberOfDaysGrown);
     }
 
     public void Harvest() {
         Debug.Log("Item dropped");
 
-        totalHarvestNumber = Random.Range(minHarvestItemNumber, maxHarvestItemNumber); // is this already an int?
+        var dropAmount = Random.Range(plantData.MinDrop, plantData.MaxDrop); // is this already an int?
 
         var plantPosition = gameObject.transform.position;
 
         // drops in range of plant
-        for (int numberDropped = 0; numberDropped < totalHarvestNumber; numberDropped++) {
-            
+        for (int numberDropped = 0; numberDropped < dropAmount; numberDropped++) {
             // fruit appears on plant
-            Instantiate(harvestItem, new Vector2(plantPosition.x, plantPosition.y), Quaternion.identity);
-            
-            
+            var gameObject = Instantiate(harvestItem, new Vector2(plantPosition.x, plantPosition.y), Quaternion.identity);
+            gameObject.GetComponent<Item>().itemData = plantData.Drop;
         }
 
-        if (harvestType == HarvestType.SingleHarvest) {
+        if (plantData.HarvestType == HarvestType.SingleHarvest) {
             Debug.Log("this is a single harvest plant");
             RemoveFromGame();
-        }
-        else if (harvestType == HarvestType.MulitpleHarvest) {
-            numberOfDaysGrown = (harvestTimeDays / 2) + 3;
-            _spriteRenderer.sprite = growingSprites.Last();
+        } else if (plantData.HarvestType == HarvestType.MultipleHarvest) {
+            // TODO: Extract this into a class or data, not which one yet.
+            _numberOfDaysGrown = (plantData.GrowthTimeDays / 2) + 3;
+            _spriteRenderer.sprite = plantData.GrowingSprites.Last();
             // after 'season' ends, destroy the plant?
         }
     }
 
     public bool IsReadyToHarvest() {
-        return numberOfDaysGrown >= harvestTimeDays;
+        return _numberOfDaysGrown >= plantData.GrowthTimeDays;
     }
 
     public void RemoveFromGame() {
@@ -84,6 +85,6 @@ public class Plant : MonoBehaviour, IDestroyable, IMaturable {
 
 public enum HarvestType {
     SingleHarvest,
-    MulitpleHarvest,
+    MultipleHarvest,
     IndefiniteHarvest,
 }

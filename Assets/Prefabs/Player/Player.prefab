@@ -93,9 +93,11 @@ GameObject:
   m_Component:
   - component: {fileID: 4497809586103752095}
   - component: {fileID: 4497809586103752092}
-  - component: {fileID: 4463783868178944699}
   - component: {fileID: 7040976490862713838}
   - component: {fileID: 7040976490862713841}
+  - component: {fileID: 1061481121}
+  - component: {fileID: 4463783868178944699}
+  - component: {fileID: 4643159948661202593}
   m_Layer: 9
   m_Name: Player
   m_TagString: Player
@@ -170,27 +172,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &4463783868178944699
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4497809586103752093}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a1c0d8248c57f374a9b01195ee865d91, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 0.12
-  plant: {fileID: 0}
-  equippedItem: {fileID: 0}
-  item1: {fileID: 0}
-  item2: {fileID: 0}
-  item3: {fileID: 0}
-  Id: 0
-  username: 
-  isLocal: 0
 --- !u!50 &7040976490862713838
 Rigidbody2D:
   serializedVersion: 4
@@ -231,3 +212,52 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!70 &1061481121
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4497809586103752093}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 0.85, y: 1.25}
+  m_Direction: 0
+--- !u!114 &4463783868178944699
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4497809586103752093}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1c0d8248c57f374a9b01195ee865d91, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 0.12
+  plant: {fileID: 0}
+  equippedItem: {fileID: 0}
+  item1: {fileID: 0}
+  item2: {fileID: 0}
+  item3: {fileID: 0}
+  Id: 0
+  username: 
+  isLocal: 0
+--- !u!114 &4643159948661202593
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4497809586103752093}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e5781d49f553b44f81d5f7fa4a94240, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

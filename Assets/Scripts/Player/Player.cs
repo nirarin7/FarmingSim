@@ -17,7 +17,6 @@ public class Player : MonoBehaviour {
     public int Id;
     public string username;
     public bool isLocal;
-    public Inventory Inventory = new Inventory();
 
     protected static readonly int HorizontalDirection = Animator.StringToHash("HorizontalDirection");
     protected static readonly int VerticalDirection = Animator.StringToHash("VerticalDirection");
@@ -113,4 +112,5 @@ public class Player : MonoBehaviour {
 
     public virtual void SetDirection(Vector2 direction) {
     }
+
 }

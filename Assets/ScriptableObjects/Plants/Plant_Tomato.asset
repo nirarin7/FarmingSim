@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6de434d96ccb402bbeae03234c5c983f, type: 3}
+  m_Name: Plant_Tomato
+  m_EditorClassIdentifier: 
+  name: Tomato
+  description: Tomato
+  growthTimeDays: 14
+  minDrop: 3
+  maxDrop: 5
+  drop: {fileID: 11400000, guid: f11b3468c4d168745bb84a53c9c83c80, type: 2}
+  harvestType: 1
+  seedSprite: {fileID: 2723419473824185703, guid: fff7a1bc0bf3fe1449e09d111b25f060,
+    type: 3}
+  harvestSprite: {fileID: -2146407093769027070, guid: fff7a1bc0bf3fe1449e09d111b25f060,
+    type: 3}
+  growingSprites:
+  - {fileID: 6763239584270825710, guid: fff7a1bc0bf3fe1449e09d111b25f060, type: 3}
+  - {fileID: -8892350555127147143, guid: fff7a1bc0bf3fe1449e09d111b25f060, type: 3}
+  - {fileID: 3129659223043388249, guid: fff7a1bc0bf3fe1449e09d111b25f060, type: 3}
+  - {fileID: -6685149105780896793, guid: fff7a1bc0bf3fe1449e09d111b25f060, type: 3}

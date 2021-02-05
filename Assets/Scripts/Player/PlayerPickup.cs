@@ -1,42 +1,31 @@
+using System;
 using UnityEngine;
-using UnityEngine.Networking;
 
-public class ItemPickup : MonoBehaviour, IDestroyable {
+public class PlayerPickup : MonoBehaviour, IDestroyable {
     public float movementSpeed;
     public float inRangeOffset;
-    public float dropOffSet;
     public bool HasBeenDestroyed { get; set; }
 
     private GameObject _player;
-    private Vector2 _dropPosition;
     private bool _playerInRange = false;
+    private Item _item;
 
     private void Awake() {
-        var itemPosition = gameObject.transform.position;
-
-        // moves from source to ground
-        var xEnd = Random.Range(itemPosition.x - dropOffSet, itemPosition.x + dropOffSet);
-        var yEnd = Random.Range(itemPosition.y - dropOffSet, itemPosition.y + dropOffSet);
-
-        _dropPosition = new Vector2(xEnd, yEnd);
+        _item = GetComponent<Item>();
     }
 
     // Update is called once per frame
     void Update() {
         if (_playerInRange) {
             MoveTowardsPlayer();
-        } else {
-            MovetoGround();
         }
-    }
 
-    private void MovetoGround() {
-        var step = movementSpeed * Time.deltaTime;
-        gameObject.transform.position = Vector2.MoveTowards(gameObject.transform.position, _dropPosition, step);
     }
 
     private void OnTriggerEnter2D(Collider2D other) {
-        //TODO: make sure only Player collider
+        
+        if (_playerInRange) return;
+        
         _player = other.gameObject;
         _playerInRange = true;
     }
@@ -60,6 +49,7 @@ public class ItemPickup : MonoBehaviour, IDestroyable {
     }
 
     private void AddToPlayer() {
+        Inventory.Instance.AddItem(_item);
         RemoveFromGame();
     }
 
@@ -67,5 +57,9 @@ public class ItemPickup : MonoBehaviour, IDestroyable {
         HasBeenDestroyed = true;
         gameObject.SetActive(false);
         Destroy(gameObject);
+    }
+
+    public bool HasBeenPickedUpByPlayer() {
+        return _playerInRange;
     }
 }
