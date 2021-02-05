@@ -8012,6 +8012,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7ff23494d1842e24ab3bbe5dc1a30520, type: 3}
+--- !u!1 &282019003 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1958488499521259270, guid: cc2a934ed9f26ba4080a60938e8146ba,
+    type: 3}
+  m_PrefabInstance: {fileID: 388377320}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &338204360
 GameObject:
   m_ObjectHideFlags: 0
@@ -8072,7 +8078,7 @@ SpriteRenderer:
   m_Sprite: {fileID: -9003556899694196674, guid: fff7a1bc0bf3fe1449e09d111b25f060,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
+  m_FlipX: 1
   m_FlipY: 0
   m_DrawMode: 0
   m_Size: {x: 2, y: 2.5}
@@ -8095,6 +8101,81 @@ Transform:
   m_Father: {fileID: 765239122}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &388377320
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1958488499521259270, guid: cc2a934ed9f26ba4080a60938e8146ba,
+        type: 3}
+      propertyPath: m_Name
+      value: CarrotPlant
+      objectReference: {fileID: 0}
+    - target: {fileID: 5922186778853899089, guid: cc2a934ed9f26ba4080a60938e8146ba,
+        type: 3}
+      propertyPath: plantData
+      value: 
+      objectReference: {fileID: 11400000, guid: 9f63cf54d28052545b646160d42ebbed,
+        type: 2}
+    - target: {fileID: 6218795657945349940, guid: cc2a934ed9f26ba4080a60938e8146ba,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6218795657945349940, guid: cc2a934ed9f26ba4080a60938e8146ba,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.063770145
+      objectReference: {fileID: 0}
+    - target: {fileID: 6218795657945349940, guid: cc2a934ed9f26ba4080a60938e8146ba,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.9562296
+      objectReference: {fileID: 0}
+    - target: {fileID: 6218795657945349940, guid: cc2a934ed9f26ba4080a60938e8146ba,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6218795657945349940, guid: cc2a934ed9f26ba4080a60938e8146ba,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6218795657945349940, guid: cc2a934ed9f26ba4080a60938e8146ba,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6218795657945349940, guid: cc2a934ed9f26ba4080a60938e8146ba,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6218795657945349940, guid: cc2a934ed9f26ba4080a60938e8146ba,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6218795657945349940, guid: cc2a934ed9f26ba4080a60938e8146ba,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6218795657945349940, guid: cc2a934ed9f26ba4080a60938e8146ba,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6218795657945349940, guid: cc2a934ed9f26ba4080a60938e8146ba,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: cc2a934ed9f26ba4080a60938e8146ba, type: 3}
 --- !u!1 &417596104
 GameObject:
   m_ObjectHideFlags: 0
@@ -8414,7 +8495,7 @@ SpriteRenderer:
   m_Sprite: {fileID: -5199499306944234046, guid: fff7a1bc0bf3fe1449e09d111b25f060,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
+  m_FlipX: 1
   m_FlipY: 0
   m_DrawMode: 0
   m_Size: {x: 2, y: 2.5}
@@ -8422,7 +8503,7 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
+  m_SpriteSortPoint: 1
 --- !u!4 &681079346
 Transform:
   m_ObjectHideFlags: 0
@@ -8874,6 +8955,11 @@ PrefabInstance:
       propertyPath: item2
       value: 
       objectReference: {fileID: 1350853394}
+    - target: {fileID: 4463783868178944699, guid: 351cd09e81b22504a9948ea487755c04,
+        type: 3}
+      propertyPath: item3
+      value: 
+      objectReference: {fileID: 282019003}
     - target: {fileID: 4497809586103752093, guid: 351cd09e81b22504a9948ea487755c04,
         type: 3}
       propertyPath: m_Name

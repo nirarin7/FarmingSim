@@ -12,13 +12,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6de434d96ccb402bbeae03234c5c983f, type: 3}
   m_Name: Plant_Carrot
   m_EditorClassIdentifier: 
-  name: 
-  description: 
-  growthTimeDays: 0
-  minDrop: 0
-  maxDrop: 0
-  drop: {fileID: 0}
+  name: Carrot
+  description: Veggie
+  growthTimeDays: 5
+  minDrop: 1
+  maxDrop: 1
+  drop: {fileID: 11400000, guid: 470f93b906d83124fbb10fece96ca5e6, type: 2}
   harvestType: 0
-  seedSprite: {fileID: 0}
-  harvestSprite: {fileID: 0}
-  growingSprites: []
+  seedSprite: {fileID: -1591494540414486155, guid: fff7a1bc0bf3fe1449e09d111b25f060,
+    type: 3}
+  harvestSprite: {fileID: -6765612774006472302, guid: fff7a1bc0bf3fe1449e09d111b25f060,
+    type: 3}
+  growingSprites:
+  - {fileID: 1231135443311307367, guid: fff7a1bc0bf3fe1449e09d111b25f060, type: 3}
+  - {fileID: 4971549738281603843, guid: fff7a1bc0bf3fe1449e09d111b25f060, type: 3}
+  - {fileID: 7934050724169243448, guid: fff7a1bc0bf3fe1449e09d111b25f060, type: 3}
+  - {fileID: 7055885797876016272, guid: fff7a1bc0bf3fe1449e09d111b25f060, type: 3}

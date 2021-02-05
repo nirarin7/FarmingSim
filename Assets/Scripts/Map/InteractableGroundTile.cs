@@ -32,8 +32,9 @@ public class InteractableGroundTile : MonoBehaviour, IPlayerInteractable {
                 plant = Instantiate(item, gameObject.transform.position, Quaternion.identity);
         }
 
-        var shovel = item.GetComponent<Shovel>();
-        if (!isPlowed && shovel != null) {
+        var equipItem = item.GetComponent<Item>();
+        if (!isPlowed && equipItem != null && equipItem.itemData.GetType() == typeof(EquipmentData) &&
+            ((EquipmentData) equipItem.itemData).Roles.Contains(EquipmentRoles.Shovel)) {
             _spriteRenderer.sprite = plowedGroundSprite;
             isPlowed = true;
         }
@@ -50,7 +51,6 @@ public class InteractableGroundTile : MonoBehaviour, IPlayerInteractable {
         }
     }
 
-    
-    public void PlayerInteract() {
-    }
+
+    public void PlayerInteract() { }
 }

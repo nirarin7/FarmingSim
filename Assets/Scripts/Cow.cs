@@ -64,8 +64,8 @@ public class Cow : MonoBehaviour, IMaturable, IPlayerInteractable {
 
         //TODO: Refactor this due to the change in how Items work
         // FeedingIncreaseEnergy(consumable.energyAmount);
-        if (consumable != null)
-            FeedingIncreaseEnergy(10);
+        if (consumable != null && consumable.itemData.GetType() == typeof(ConsumableData))
+            FeedingIncreaseEnergy(((ConsumableData)consumable.itemData).EnergyAmount);
     }
 
     public void PlayerInteract() {

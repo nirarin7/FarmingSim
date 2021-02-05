@@ -7,22 +7,14 @@ using UnityEngine;
 public class Inventory : MonoBehaviour {
     public static Inventory Instance;
 
-    public List<ItemData> items = new List<ItemData>();
-    private readonly Dictionary<string, InventoryItem> _itemLookUp = new Dictionary<string, InventoryItem>();
+    public List<InventoryItem> items = new List<InventoryItem>();
 
     private void Awake() {
         if (!Instance) {
             Instance = this;
-            BuildItemLookUp();
         } else if (Instance) {
             Debug.Log("Instance already exist, destroying object");
             Destroy(this);
-        }
-    }
-
-    private void BuildItemLookUp() {
-        foreach (var item in items) {
-            _itemLookUp.Add(item.name, new InventoryItem {count = 1, ItemData = item});
         }
     }
 
@@ -36,10 +28,15 @@ public class Inventory : MonoBehaviour {
     }
 
     public void AddItem(InventoryItem item) {
-        if (_itemLookUp.ContainsKey(item.ItemData.name)) {
-            _itemLookUp[item.ItemData.name].count += item.count;
+        if (item.ItemData && item.ItemData.CanStack) {
+            var inventoryItem = items.FirstOrDefault(x => x.ItemData.Name == item.ItemData.Name);
+            if (inventoryItem != null) {
+                inventoryItem.count += item.count;
+            } else {
+                items.Add(item);
+            }
         } else {
-            _itemLookUp.Add(item.ItemData.name, item);
+            items.Add(item);
         }
     }
 
@@ -47,8 +44,8 @@ public class Inventory : MonoBehaviour {
         StringBuilder sb = new StringBuilder();
 
         sb.AppendLine("Current Items");
-        foreach (var item in _itemLookUp.Select(pair => pair.Value)) {
-            sb.AppendLine($"Item: {item.ItemData.name}, Count: {item.count}");
+        foreach (var item in items){
+            sb.AppendLine($"Item: {item.ItemData.Name}, Count: {item.count}");
         }
 
         return sb.ToString();

@@ -5,7 +5,6 @@ namespace ScriptableObjects {
     [CreateAssetMenu(fileName = "New Plant", menuName = "Scriptable Objects/Plant", order = 52)]
     public class PlantData : ScriptableObject {
         [SerializeField] private new string name;
-        [SerializeField] private string description;
 
         [SerializeField] private int growthTimeDays;
         [SerializeField] private int minDrop;
@@ -20,7 +19,6 @@ namespace ScriptableObjects {
         [SerializeField] private List<Sprite> growingSprites = new List<Sprite>();
 
         public string Name => name;
-        public string Description => description;
         
         public int GrowthTimeDays => growthTimeDays;
         public int MinDrop => minDrop;
