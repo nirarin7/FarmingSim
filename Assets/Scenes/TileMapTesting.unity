@@ -7999,7 +7999,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1509008637}
         m_TargetAssemblyTypeName: FarmManager, Assembly-CSharp
-        m_MethodName: GrowPlants
+        m_MethodName: AdvanceDay
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -8123,9 +8123,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1312536718}
   - component: {fileID: 1312536717}
-  m_Layer: 0
-  m_Name: Simple Farm Packv12_49
-  m_TagString: Untagged
+  - component: {fileID: 1312536719}
+  m_Layer: 9
+  m_Name: 'Cow '
+  m_TagString: Livestock
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8167,9 +8168,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingLayerID: 664878647
+  m_SortingLayer: 1
+  m_SortingOrder: 1
   m_Sprite: {fileID: -1166061527622484292, guid: fff7a1bc0bf3fe1449e09d111b25f060,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -8196,6 +8197,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1312536719
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1312536716}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d74716228bfa3340b861a31ba630bd3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cowName: Bonnabell
+  cowAge: 1
+  matureSprite: {fileID: -7945165248927606671, guid: fff7a1bc0bf3fe1449e09d111b25f060,
+    type: 3}
 --- !u!1 &1509008636
 GameObject:
   m_ObjectHideFlags: 0

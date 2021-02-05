@@ -11,6 +11,8 @@ public class ItemPickup : MonoBehaviour, IDestroyable {
     private Vector2 _dropPosition;
     private bool _playerInRange = false;
 
+    
+    ///this might need to be separated into a HarvestItem class or something.
     private void Awake() {
         var itemPosition = gameObject.transform.position;
 
@@ -29,7 +31,8 @@ public class ItemPickup : MonoBehaviour, IDestroyable {
             MovetoGround();
         }
     }
-
+    
+    //items move 
     private void MovetoGround() {
         var step = movementSpeed * Time.deltaTime;
         gameObject.transform.position = Vector2.MoveTowards(gameObject.transform.position, _dropPosition, step);

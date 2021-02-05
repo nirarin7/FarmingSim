@@ -1,7 +1,6 @@
 ﻿using UnityEngine;
 
 public class Player : MonoBehaviour {
-    
     public float speed = .5f;
     public GameObject plant;
     public GameObject equippedItem;
@@ -66,19 +65,21 @@ public class Player : MonoBehaviour {
             Debug.Log("Camera is not attached to player.");
             return;
         }
-        
-        LayerMask mask = LayerMask.GetMask("Player");
-        RaycastHit2D hit = Physics2D.GetRayIntersection(_mainCamera.ScreenPointToRay(Input.mousePosition),15F, mask);
-        var isPointNearPlayer = IsPointNearPlayer(hit.point.x, hit.point.y, 4.5f);
-        if (isPointNearPlayer) {
-            if (hit.collider != null) {
-                var groundTileGameObject = hit.collider.gameObject;
-                var groundTile = groundTileGameObject.GetComponent<InteractableGroundTile>();
 
-                if (groundTile != null && Input.GetMouseButtonDown(0)) {
-                    // move this logic to the ground tile and generalize into an Item class
-                    groundTile.Interact(equippedItem);
-                }
+        LayerMask mask = LayerMask.GetMask("Player");
+        RaycastHit2D hit = Physics2D.GetRayIntersection(_mainCamera.ScreenPointToRay(Input.mousePosition), 15F, mask);
+        var isPointNearPlayer = IsPointNearPlayer(hit.point.x, hit.point.y, 4.5f);
+        if (isPointNearPlayer && hit.collider != null) {
+            var hitObject = hit.collider.gameObject;
+            var playerInteractable = hitObject.GetComponent<IPlayerInteractable>();
+
+            if (playerInteractable != null && Input.GetMouseButtonDown(0)) {
+                // move this logic to the ground tile and generalize into an Item class
+
+                if (equippedItem != null)
+                    playerInteractable.PlayerInteract(equippedItem);
+                else
+                    playerInteractable.PlayerInteract();
             }
         }
     }
@@ -91,7 +92,6 @@ public class Player : MonoBehaviour {
     protected virtual void FixedUpdate() {
         gameObject.transform.position = Move();
     }
-
 
 
     private Vector2 Move() {
