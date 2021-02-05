@@ -6,6 +6,11 @@ using UnityEngine;
 public class FarmManager : MonoBehaviour {
     public int currentDay;
 
+    
+
+   
+    
+
   
 
 
@@ -20,15 +25,21 @@ public class FarmManager : MonoBehaviour {
     public void AdvanceDay() {
         currentDay++;
 
+
+        
+
         var maturables = FindObjectsOfType<MonoBehaviour>().OfType<IMaturable>();
 
         foreach (var maturable in maturables) {
             
             maturable.Matures();
+            
         }
 
 
     }
+    
+    
 
  
 

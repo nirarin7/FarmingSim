@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 2511119984919191526}
   - component: {fileID: -6306555559974033599}
   - component: {fileID: 1817538521}
+  - component: {fileID: 7791161753013059118}
   m_Layer: 10
   m_Name: TomatoFruit
   m_TagString: Fruit
@@ -116,3 +117,17 @@ MonoBehaviour:
   movementSpeed: 5
   inRangeOffset: 0.1
   dropOffSet: 3
+--- !u!114 &7791161753013059118
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2511119984919191525}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a85aed370169a8743806bac4b03e95b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  energyGained: 5
+  type: Fruit

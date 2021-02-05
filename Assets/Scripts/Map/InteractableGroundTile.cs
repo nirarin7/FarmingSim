@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class InteractableGroundTile : MonoBehaviour {
+public class InteractableGroundTile : MonoBehaviour, IPlayerInteractable {
     public GameObject plant;
     public Sprite plowedGroundSprite;
 
@@ -19,7 +19,7 @@ public class InteractableGroundTile : MonoBehaviour {
         }
     }
 
-    public void Interact(GameObject item) {
+    public void PlayerInteract(GameObject item) {
         if (item == null) {
             Debug.Log("Interacting with null item");
             return;
@@ -50,7 +50,7 @@ public class InteractableGroundTile : MonoBehaviour {
         }
     }
 
-    public void Interact(string item) {
-        
+    
+    public void PlayerInteract() {
     }
 }
