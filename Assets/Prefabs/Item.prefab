@@ -115,7 +115,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9683e550a1458f442a4a2a2b5d9c7539, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemData: {fileID: 11400000, guid: f11b3468c4d168745bb84a53c9c83c80, type: 2}
+  itemData: {fileID: 0}
   count: 1
 --- !u!114 &6807162762042276014
 MonoBehaviour:

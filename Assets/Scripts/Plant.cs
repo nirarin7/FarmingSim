@@ -56,8 +56,9 @@ public class Plant : MonoBehaviour, IDestroyable, IMaturable {
         // drops in range of plant
         for (int numberDropped = 0; numberDropped < dropAmount; numberDropped++) {
             // fruit appears on plant
-            var gameObject = Instantiate(harvestItem, new Vector2(plantPosition.x, plantPosition.y), Quaternion.identity);
-            gameObject.GetComponent<Item>().itemData = plantData.Drop;
+            var itemDrop = Instantiate(harvestItem, new Vector2(plantPosition.x, plantPosition.y), Quaternion.identity);
+            var item = itemDrop.GetComponent<Item>();
+            item.SetItemData(plantData.Drop);
         }
 
         if (plantData.HarvestType == HarvestType.SingleHarvest) {

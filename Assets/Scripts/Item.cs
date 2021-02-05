@@ -7,17 +7,17 @@ public class Item : MonoBehaviour {
     private SpriteRenderer _spriteRenderer;
 
     void Awake() {
-        if (_spriteRenderer == null) _spriteRenderer = GetComponent<SpriteRenderer>();
-        SetItemData();
+        _spriteRenderer = GetComponent<SpriteRenderer>();
+        SetItemData(itemData);
     }
 
-    private void SetItemData() {
-        if (itemData) {
-            if (_spriteRenderer) {
-                _spriteRenderer.sprite = itemData.Sprite;
-            }
-        }
-    }
+     public void SetItemData(ItemData dropItem) {
+         itemData = dropItem;
+
+         if (!dropItem || !_spriteRenderer) return;
+         
+         _spriteRenderer.sprite = dropItem.Sprite;
+     }
 
     // Start is called before the first frame update
     void Start() { }
