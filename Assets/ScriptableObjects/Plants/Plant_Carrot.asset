@@ -13,11 +13,10 @@ MonoBehaviour:
   m_Name: Plant_Carrot
   m_EditorClassIdentifier: 
   name: Carrot
-  description: Veggie
   growthTimeDays: 5
   minDrop: 1
   maxDrop: 1
-  drop: {fileID: 11400000, guid: 470f93b906d83124fbb10fece96ca5e6, type: 2}
+  drop: {fileID: 11400000, guid: 4fd1ce1347d364c4e93b879286275ded, type: 2}
   harvestType: 0
   seedSprite: {fileID: -1591494540414486155, guid: fff7a1bc0bf3fe1449e09d111b25f060,
     type: 3}

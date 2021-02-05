@@ -13,11 +13,10 @@ MonoBehaviour:
   m_Name: Plant_Tomato
   m_EditorClassIdentifier: 
   name: Tomato
-  description: Tomato
   growthTimeDays: 14
   minDrop: 3
   maxDrop: 5
-  drop: {fileID: 11400000, guid: f11b3468c4d168745bb84a53c9c83c80, type: 2}
+  drop: {fileID: 11400000, guid: 6dcd41699ffbbe64b9eeb467fe105c11, type: 2}
   harvestType: 1
   seedSprite: {fileID: 2723419473824185703, guid: fff7a1bc0bf3fe1449e09d111b25f060,
     type: 3}

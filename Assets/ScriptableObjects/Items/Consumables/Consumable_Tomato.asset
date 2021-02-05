@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 968b30ea1b8be61459a8eada7653bd79, type: 3}
-  m_Name: Tomato
+  m_Name: Consumable_Tomato
   m_EditorClassIdentifier: 
-  name: 
-  description: 
-  sprite: {fileID: 0}
-  canStack: 0
+  name: Tomato
+  description: Red, juicy just like me booty
+  sprite: {fileID: -627885656877527648, guid: fff7a1bc0bf3fe1449e09d111b25f060, type: 3}
+  canStack: 1
   type: 0
-  salePrice: 0
-  energyAmount: 0
+  salePrice: 5
+  energyAmount: 5
