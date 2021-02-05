@@ -30,12 +30,10 @@ public class Cow : MonoBehaviour, IMaturable, IPlayerInteractable {
 
 
     public void Matures() {
-        
         GrazingIncreaseEnergy();
         cowAge++;
         if (cowAge >= matureAge) {
             _spriteRenderer.sprite = matureSprite;
-            
         }
     }
 
@@ -46,13 +44,9 @@ public class Cow : MonoBehaviour, IMaturable, IPlayerInteractable {
 
 
     private void FeedingIncreaseEnergy(int energyAmount) {
-        if (currentEnergy + energyAmount < maxEnergy) {
-            currentEnergy += energyAmount;
-
-            if (currentEnergy < maxEnergy)
-                currentEnergy += (maxEnergy - currentEnergy);
-        } else
-            Debug.Log("the cow is full");
+        currentEnergy += energyAmount;
+        if (currentEnergy > maxEnergy)
+            currentEnergy = maxEnergy;
     }
 
     private void IncreaseHappiness() {
