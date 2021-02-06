@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class EnergyBar : MonoBehaviour {
     public Slider slider;
-    public Cow cow;
+    public Animal animal;
 
 
     // Start is called before the first frame update
@@ -16,6 +16,6 @@ public class EnergyBar : MonoBehaviour {
 
     // Update is called once per frame
     void Update() {
-        slider.value = cow.currentEnergy;
+        slider.value = animal.currentEnergy;
     }
 }

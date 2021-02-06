@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 968b30ea1b8be61459a8eada7653bd79, type: 3}
+  m_Name: Consumable_Egg
+  m_EditorClassIdentifier: 
+  name: Egg
+  description: Egg!
+  sprite: {fileID: -7943420173769515555, guid: fff7a1bc0bf3fe1449e09d111b25f060, type: 3}
+  canStack: 1
+  type: 0
+  salePrice: 5
+  energyAmount: 5

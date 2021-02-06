@@ -5,12 +5,12 @@ using UnityEngine.UI;
 
 public class HappinessBar : MonoBehaviour {
     public Slider slider;
-    public Cow cow;
+    public Animal animal;
 
 
     // Update is called once per frame
     void Update() {
-        slider.value = cow.currentHappiness;
+        slider.value = animal.currentHappiness;
     }
 }
 

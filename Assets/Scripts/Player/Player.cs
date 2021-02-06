@@ -79,7 +79,7 @@ public class Player : MonoBehaviour {
 
             if (playerInteractable != null && Input.GetMouseButtonDown(0)) {
                 // move this logic to the ground tile and generalize into an Item class
-
+                
                 if (equippedItem != null)
                     playerInteractable.PlayerInteract(equippedItem);
                 else

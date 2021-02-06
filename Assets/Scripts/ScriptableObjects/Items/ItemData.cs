@@ -9,6 +9,7 @@ public class ItemData : ScriptableObject {
     [SerializeField] private bool canStack;
     [SerializeField] private ItemType type;
     [SerializeField] private int salePrice;
+    [SerializeField] private Quality _baseQuality;
 
     public string Name => name;
     public string Description => description;
@@ -16,6 +17,7 @@ public class ItemData : ScriptableObject {
     public bool CanStack => canStack;
     public ItemType Type => type;
     public int SalePrice => salePrice;
+    public Quality BaseQuality => _baseQuality;
 }
 
 

@@ -15,5 +15,13 @@ public class UITextTestScript : MonoBehaviour {
         if (Text != null && Inventory != null) {
             Text.text = Inventory.ToString();
         }
+
+        var animals = FindObjectsOfType<Animal>();
+        if (Text != null) {
+
+            foreach (var animal in animals) {
+                Text.text += animal.ToString();
+            }
+        }
     }
 }
