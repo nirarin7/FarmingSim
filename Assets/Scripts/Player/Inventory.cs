@@ -6,6 +6,7 @@ using UnityEngine;
 
 public class Inventory : MonoBehaviour {
     public static Inventory Instance;
+    public int Capacity;
 
     public List<InventoryItem> items = new List<InventoryItem>();
 
