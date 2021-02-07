@@ -29,7 +29,8 @@ public class Inventory : MonoBehaviour {
     }
 
     public void AddItem(InventoryItem item) {
-        if (item.ItemData && item.ItemData.CanStack) {
+        if (!item.ItemData) return;
+        if (item.ItemData.CanStack) {
             var inventoryItem = items.FirstOrDefault(x => x.ItemData.Name == item.ItemData.Name);
             if (inventoryItem != null) {
                 inventoryItem.count += item.count;
@@ -45,7 +46,7 @@ public class Inventory : MonoBehaviour {
         StringBuilder sb = new StringBuilder();
 
         sb.AppendLine("Current Items");
-        foreach (var item in items){
+        foreach (var item in items) {
             sb.AppendLine($"Item: {item.ItemData.Name}, Count: {item.count}");
         }
 
