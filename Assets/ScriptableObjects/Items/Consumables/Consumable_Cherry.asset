@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 968b30ea1b8be61459a8eada7653bd79, type: 3}
-  m_Name: New Consumable
+  m_Name: Consumable_Cherry
   m_EditorClassIdentifier: 
   name: 
   description: 
@@ -18,4 +18,5 @@ MonoBehaviour:
   canStack: 0
   type: 0
   salePrice: 0
+  _baseQuality: 0
   energyAmount: 0

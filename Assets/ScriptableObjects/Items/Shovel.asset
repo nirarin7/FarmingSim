@@ -14,9 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Shovel
   description: It digs
-  sprite: {fileID: -9019623964014852009, guid: fff7a1bc0bf3fe1449e09d111b25f060, type: 3}
+  sprite: {fileID: 5290076774218342882, guid: 9c7380b7c6900d847b57fca94a056a26, type: 3}
   canStack: 0
   type: 1
   salePrice: 5
+  _baseQuality: 0
   damage: 1
   roles: 00000000

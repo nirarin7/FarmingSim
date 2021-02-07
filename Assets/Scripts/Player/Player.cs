@@ -24,6 +24,7 @@ public class Player : MonoBehaviour {
     void Start() {
         Animator = GetComponent<Animator>();
         _mainCamera = GetComponentInChildren<Camera>();
+        // equippedItem = Inventory.Instance.equippedItem;
     }
 
     // Update is called once per frame
@@ -40,24 +41,21 @@ public class Player : MonoBehaviour {
 
     private void EquipItem() {
         if (Input.GetKeyDown(KeyCode.Alpha1)) {
-            if (equippedItem != null) {
-                equippedItem.SetActive(false);
-                equippedItem = Instantiate(item1, gameObject.transform.position + new Vector3(.6f, 0f), Quaternion.identity);
-                equippedItem.SetActive(true);
-            }
+            if (equippedItem != null) Destroy(equippedItem);
+            equippedItem = Instantiate(item1, gameObject.transform.position + new Vector3(.6f, 0f),
+                                       Quaternion.identity);
+            equippedItem.SetActive(true);
         }
 
         if (Input.GetKeyDown(KeyCode.Alpha2)) {
-            if (equippedItem != null)
-                equippedItem.SetActive(false);
+            if (equippedItem != null) Destroy(equippedItem);
             equippedItem = Instantiate(item2, gameObject.transform.position + new Vector3(.6f, 0f),
                                        Quaternion.identity);
             equippedItem.SetActive(true);
         }
 
         if (Input.GetKeyDown(KeyCode.Alpha3)) {
-            if (equippedItem != null)
-                equippedItem.SetActive(false);
+            if (equippedItem != null) Destroy(equippedItem);
             equippedItem = Instantiate(item3, gameObject.transform.position + new Vector3(.6f, 0f),
                                        Quaternion.identity);
             equippedItem.SetActive(true);

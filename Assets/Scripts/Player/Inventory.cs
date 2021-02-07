@@ -9,6 +9,10 @@ public class Inventory : MonoBehaviour {
     public int Capacity;
 
     public List<InventoryItem> items = new List<InventoryItem>();
+    // public List<Item> hotbarItems = new List<Item>();
+
+    public static int HotBarCapacity = 10;
+    public Item equippedItem;
 
     private void Awake() {
         if (!Instance) {
@@ -25,20 +29,18 @@ public class Inventory : MonoBehaviour {
             return;
         }
 
-        AddItem(new InventoryItem {ItemData = item.itemData, count = item.count});
-    }
+        if (!item.itemData) return;
 
-    public void AddItem(InventoryItem item) {
-        if (!item.ItemData) return;
-        if (item.ItemData.CanStack) {
-            var inventoryItem = items.FirstOrDefault(x => x.ItemData.Name == item.ItemData.Name);
-            if (inventoryItem != null) {
-                inventoryItem.count += item.count;
+        var inventoryItem = new InventoryItem {itemData = item.itemData, count = item.count};
+        if (item.itemData.CanStack) {
+            var duplicateItem = items.FirstOrDefault(x => x.itemData.Name == item.itemData.Name);
+            if (duplicateItem != null) {
+                duplicateItem.count += item.count;
             } else {
-                items.Add(item);
+                items.Add(inventoryItem);
             }
         } else {
-            items.Add(item);
+            items.Add(inventoryItem);
         }
     }
 
@@ -47,7 +49,7 @@ public class Inventory : MonoBehaviour {
 
         sb.AppendLine("Current Items");
         foreach (var item in items) {
-            sb.AppendLine($"Item: {item.ItemData.Name}, Count: {item.count}");
+            sb.AppendLine($"Item: {item.itemData.Name}, Count: {item.count}");
         }
 
         return sb.ToString();
@@ -59,6 +61,6 @@ public class Inventory : MonoBehaviour {
 }
 
 public class InventoryItem {
-    public int count = 0;
-    public ItemData ItemData;
+    public ItemData itemData;
+    public int count;
 }
