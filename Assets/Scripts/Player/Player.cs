@@ -40,18 +40,18 @@ public class Player : MonoBehaviour {
 
     private void EquipItem() {
         if (Input.GetKeyDown(KeyCode.Alpha1)) {
-            if (equippedItem != null)
+            if (equippedItem != null) {
                 equippedItem.SetActive(false);
-            equippedItem = Instantiate(item1, gameObject.transform.position + new Vector3(.6f, 0f),
-                Quaternion.identity);
-            equippedItem.SetActive(true);
+                equippedItem = Instantiate(item1, gameObject.transform.position + new Vector3(.6f, 0f), Quaternion.identity);
+                equippedItem.SetActive(true);
+            }
         }
 
         if (Input.GetKeyDown(KeyCode.Alpha2)) {
             if (equippedItem != null)
                 equippedItem.SetActive(false);
             equippedItem = Instantiate(item2, gameObject.transform.position + new Vector3(.6f, 0f),
-                Quaternion.identity);
+                                       Quaternion.identity);
             equippedItem.SetActive(true);
         }
 
@@ -59,7 +59,7 @@ public class Player : MonoBehaviour {
             if (equippedItem != null)
                 equippedItem.SetActive(false);
             equippedItem = Instantiate(item3, gameObject.transform.position + new Vector3(.6f, 0f),
-                Quaternion.identity);
+                                       Quaternion.identity);
             equippedItem.SetActive(true);
         }
     }
@@ -79,7 +79,7 @@ public class Player : MonoBehaviour {
 
             if (playerInteractable != null && Input.GetMouseButtonDown(0)) {
                 // move this logic to the ground tile and generalize into an Item class
-                
+
                 if (equippedItem != null)
                     playerInteractable.PlayerInteract(equippedItem);
                 else
@@ -107,10 +107,7 @@ public class Player : MonoBehaviour {
     }
 
 
-    public virtual void SetPosition(Vector2 position) {
-    }
+    public virtual void SetPosition(Vector2 position) { }
 
-    public virtual void SetDirection(Vector2 direction) {
-    }
-
+    public virtual void SetDirection(Vector2 direction) { }
 }
