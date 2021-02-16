@@ -6,14 +6,10 @@ using UnityEngine;
 
 public class Inventory : MonoBehaviour {
     public static Inventory Instance;
-    public int Capacity;
-
-    public List<InventoryItem> items = new List<InventoryItem>();
-    // public List<Item> hotbarItems = new List<Item>();
-
     public static int HotBarCapacity = 10;
-    public Item equippedItem;
-
+    
+    public List<InventoryItem> items = new List<InventoryItem>();
+    
     private void Awake() {
         if (!Instance) {
             Instance = this;
@@ -55,9 +51,27 @@ public class Inventory : MonoBehaviour {
         return sb.ToString();
     }
 
-    // public void RemoveItem() {
+    public GameObject GetItem(int index) {
+        if (index < items.Count) {
+            return PrefabManager.Instance.GetItem(items[index].itemData);
+        }
+        return null;
+    }
 
-    // }
+    public bool RemoveItem(ItemData itemData) {
+        if (!itemData.CanStack) return false;
+        var item = items.FirstOrDefault(x => x.itemData.Name == itemData.Name);
+        
+        if (item == null) return false;
+        item.count--;
+        
+        if (item.count <= 0) {
+            items.Remove(item);
+            return true;
+        }
+
+        return false;
+    }
 }
 
 public class InventoryItem {

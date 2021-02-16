@@ -1,3 +1,4 @@
+using UnityEditor;
 using UnityEngine;
 
 public class Item : MonoBehaviour {
@@ -11,12 +12,14 @@ public class Item : MonoBehaviour {
         SetItemData(itemData);
     }
 
+    public void InitItem() {
+         if (!itemData || !_spriteRenderer) return;
+            _spriteRenderer.sprite = itemData.Sprite;
+    }
+
      public void SetItemData(ItemData dropItem) {
          itemData = dropItem;
-
-         if (!dropItem || !_spriteRenderer) return;
-         
-         _spriteRenderer.sprite = dropItem.Sprite;
+         InitItem();
      }
 
     // Start is called before the first frame update

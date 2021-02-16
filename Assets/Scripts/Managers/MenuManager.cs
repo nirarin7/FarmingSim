@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class MenuManager : MonoBehaviour {
@@ -15,5 +13,6 @@ public class MenuManager : MonoBehaviour {
         if (Input.GetKeyDown(KeyCode.Tab)) {
             inventoryUI.InventoryToggle();
         }
+
     }
 }

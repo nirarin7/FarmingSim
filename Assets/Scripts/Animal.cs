@@ -47,19 +47,26 @@ public class Animal : MonoBehaviour, IMaturable, IPlayerInteractable {
         currentHappiness++;
     }
 
-    public void PlayerInteract(GameObject equippedItem) {
+    // TODO: Rework Player interact!
+    public bool PlayerInteract(GameObject equippedItem) {
+        if (!equippedItem) return false;
         var consumable = equippedItem.GetComponent<Item>();
 
         //TODO: Refactor this due to the change in how Items work
         // FeedingIncreaseEnergy(consumable.energyAmount);
         Debug.Log($"Player tries to feed {animalData.name}");
-        if (consumable != null && consumable.itemData.GetType() == typeof(ConsumableData))
+        if (consumable != null && consumable.itemData.GetType() == typeof(ConsumableData)) {
             FeedingIncreaseEnergy(((ConsumableData) consumable.itemData).EnergyAmount);
+            return true;
+        }
+
+        return false;
     }
 
-    public void PlayerInteract() {
+    public bool PlayerInteract() {
         Debug.Log("Player pets the cow");
         IncreaseHappiness();
+        return true;
     }
 
     // for debugging purposes.

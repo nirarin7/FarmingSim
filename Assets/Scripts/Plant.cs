@@ -4,7 +4,6 @@ using UnityEngine;
 using Random = UnityEngine.Random;
 
 public class Plant : MonoBehaviour, IDestroyable, IMaturable {
-    public GameObject harvestItem;
     public PlantData plantData;
 
     public bool HasBeenDestroyed { get; set; }
@@ -14,24 +13,29 @@ public class Plant : MonoBehaviour, IDestroyable, IMaturable {
     private SpriteRenderer _spriteRenderer;
 
     private void Awake() {
-        if (!plantData) {
-            Debug.Log($"There is no plant data attached to the plant: {gameObject.name}.");
-            return;
-        }
-
-        _spriteRenderer = GetComponent<SpriteRenderer>();
-        if (_spriteRenderer)
-            _spriteRenderer.sprite = plantData.SeedSprite;
-
-
-        _totalSpritesCount = plantData.GrowingSprites.Count;
+        Init(plantData);
     }
+
 
     // Start is called before the first frame update
     void Start() { }
 
     // Update is called once per frame
     void Update() { }
+
+    public void Init(PlantData plantData) {
+        this.plantData = plantData;
+        if (!this.plantData) {
+            // Debug.Log($"There is no plant data attached to the plant: {gameObject.name}.");
+            return;
+        }
+
+        _spriteRenderer = GetComponent<SpriteRenderer>();
+        if (_spriteRenderer)
+            _spriteRenderer.sprite = this.plantData.SeedSprite;
+        
+        _totalSpritesCount = this.plantData.GrowingSprites.Count;
+    }
 
     public void Matures() {
         _numberOfDaysGrown++;
@@ -56,11 +60,9 @@ public class Plant : MonoBehaviour, IDestroyable, IMaturable {
         // drops in range of plant
         for (int numberDropped = 0; numberDropped < dropAmount; numberDropped++) {
             // fruit appears on plant
-            var itemDrop = Instantiate(harvestItem, new Vector2(plantPosition.x, plantPosition.y), Quaternion.identity);
-            var item = itemDrop.GetComponent<Item>();
-            
-            if(item)
-                item.SetItemData(plantData.Drop);
+            var itemDrop = PrefabManager.Instance.GetItem(plantData.Drop);
+            itemDrop.AddComponent<PlayerPickup>();
+            itemDrop.transform.position = new Vector2(plantPosition.x, plantPosition.y);
         }
 
         if (plantData.HarvestType == HarvestType.SingleHarvest) {

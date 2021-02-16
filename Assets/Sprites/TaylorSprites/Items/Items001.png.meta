@@ -4,16 +4,25 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 5290076774218342882
-    second: Items001_0
+    second: Shovel
   - first:
       213: -954399256663805402
-    second: Items001_1
+    second: Shovel_Shadow
   - first:
       213: -7300608919364056826
-    second: Items001_2
+    second: Milk
   - first:
       213: 5302078421171930993
-    second: Items001_3
+    second: Milk_Shadow
+  - first:
+      213: 1146068304098973559
+    second: Cancel
+  - first:
+      213: -3514474401271252724
+    second: No_Consumable
+  - first:
+      213: 2005859926086341969
+    second: No_Plant
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -103,7 +112,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Items001_0
+      name: Shovel
       rect:
         serializedVersion: 2
         x: 176
@@ -111,7 +120,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -124,7 +133,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Items001_1
+      name: Shovel_Shadow
       rect:
         serializedVersion: 2
         x: 192
@@ -132,7 +141,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -145,7 +154,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Items001_2
+      name: Milk
       rect:
         serializedVersion: 2
         x: 208
@@ -153,7 +162,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -166,7 +175,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Items001_3
+      name: Milk_Shadow
       rect:
         serializedVersion: 2
         x: 224
@@ -174,7 +183,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -182,6 +191,69 @@ TextureImporter:
       bones: []
       spriteID: 17787318b34c49940800000000000000
       internalID: 5302078421171930993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cancel
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 777572aec07a7ef00800000000000000
+      internalID: 1146068304098973559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: No_Consumable
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c09f50c07241a3fc0800000000000000
+      internalID: -3514474401271252724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: No_Plant
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 155519ba9fe36db10800000000000000
+      internalID: 2005859926086341969
       vertices: []
       indices: 
       edges: []

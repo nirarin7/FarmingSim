@@ -1,9 +1,8 @@
-using System;
 using UnityEngine;
 
 public class PlayerPickup : MonoBehaviour, IDestroyable {
-    public float movementSpeed;
-    public float inRangeOffset;
+    public float movementSpeed = 3;
+    public float inRangeOffset = 0.1f;
     public bool HasBeenDestroyed { get; set; }
 
     private GameObject _player;

@@ -19,24 +19,29 @@ public class InteractableGroundTile : MonoBehaviour, IPlayerInteractable {
         }
     }
 
-    public void PlayerInteract(GameObject item) {
-        if (item == null) {
-            Debug.Log("Interacting with null item");
-            return;
-        }
+    // TODO: Clean this shit up, Taylor!
+    public bool PlayerInteract(GameObject item) {
+        // if (item == null) {
+            // Debug.Log("Interacting with null item");
+        // }
 
-
-        var playerPlant = item.GetComponent<Plant>();
-        if (playerPlant != null) {
-            if (isPlowed && plant == null)
-                plant = Instantiate(item, gameObject.transform.position, Quaternion.identity);
-        }
-
-        var equipItem = item.GetComponent<Item>();
-        if (!isPlowed && equipItem != null && equipItem.itemData.GetType() == typeof(EquipmentData) &&
-            ((EquipmentData) equipItem.itemData).Roles.Contains(EquipmentRoles.Shovel)) {
-            _spriteRenderer.sprite = plowedGroundSprite;
-            isPlowed = true;
+        if (item) {
+            var equipItem = item.GetComponent<Item>();
+            if (equipItem != null) {
+                if (!isPlowed && equipItem.itemData.GetType() == typeof(EquipmentData) &&
+                    ((EquipmentData) equipItem.itemData).Roles.Contains(EquipmentRoles.Shovel)) {
+                    _spriteRenderer.sprite = plowedGroundSprite;
+                    isPlowed = true;
+                    return true;
+                }
+                
+                if (isPlowed && !plant && equipItem.itemData.GetType() == typeof(SeedData)) {
+                    var seedData = (SeedData) equipItem.itemData;
+                    plant = PrefabManager.Instance.GetPlant(seedData.PlantData, gameObject);
+                    plant.transform.position = gameObject.transform.position;
+                    return true;
+                }
+            }
         }
 
         if (plant != null) {
@@ -47,10 +52,16 @@ public class InteractableGroundTile : MonoBehaviour, IPlayerInteractable {
                 if (plantScript.HasBeenDestroyed) {
                     plant = null;
                 }
+
+                return true;
             }
         }
+
+        return false;
     }
 
 
-    public void PlayerInteract() { }
+    public bool PlayerInteract() {
+        return false;
+    }
 }
