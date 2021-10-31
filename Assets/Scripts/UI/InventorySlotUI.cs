@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -9,15 +7,18 @@ public class InventorySlotUI : MonoBehaviour {
 
 
     // Start is called before the first frame update
-    void Start() {
-    }
+    void Start() { }
 
     // Update is called once per frame
-    void Update() {
-    }
+    void Update() { }
 
     public void AddItem(InventoryItem item) {
-        icon.sprite = item.ItemData.Sprite;
+        icon.sprite = item.itemData.Sprite;
         icon.enabled = true;
+    }
+
+    public void ResetSlot() {
+        icon.sprite = null;
+        icon.enabled = false;
     }
 }

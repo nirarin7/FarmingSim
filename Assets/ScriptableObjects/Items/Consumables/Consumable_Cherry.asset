@@ -17,6 +17,12 @@ MonoBehaviour:
   sprite: {fileID: 21300000, guid: d1162ca4c214d5244b33649b40731688, type: 3}
   canStack: 0
   type: 0
+<<<<<<< HEAD
   salePrice: 50
   _baseQuality: 0
   energyAmount: 8
+=======
+  salePrice: 0
+  _baseQuality: 0
+  energyAmount: 0
+>>>>>>> b992818482e951a56d2c2238a5908165e953288d

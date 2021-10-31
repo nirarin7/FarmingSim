@@ -1,4 +1,3 @@
-
 using UnityEngine;
 
 public class InventoryUI : MonoBehaviour {
@@ -27,16 +26,14 @@ public class InventoryUI : MonoBehaviour {
     }
 
     public void UpdateUI() {
-
-        for (int i = 0; i < _inventory.items.Count; i++) {
-            var item = _inventory.items[i];
-            var inventorySlot = _inventorySlots[i];
-            
-            inventorySlot.AddItem(item);
-            
+        var items = Inventory.Instance.items;
+        for (int i = 0; i < _inventorySlots.Length; i++) {
+            if (i < items.Count && items[i] != null) {
+                _inventorySlots[i].AddItem(items[i]);
+            } else {
+                _inventorySlots[i].ResetSlot();
+            }
         }
-
-
 
     }
     

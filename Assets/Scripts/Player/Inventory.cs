@@ -6,10 +6,10 @@ using UnityEngine;
 
 public class Inventory : MonoBehaviour {
     public static Inventory Instance;
-    public int Capacity;
-
+    public static int HotBarCapacity = 10;
+    
     public List<InventoryItem> items = new List<InventoryItem>();
-
+    
     private void Awake() {
         if (!Instance) {
             Instance = this;
@@ -25,20 +25,18 @@ public class Inventory : MonoBehaviour {
             return;
         }
 
-        AddItem(new InventoryItem {ItemData = item.itemData, count = item.count});
-    }
+        if (!item.itemData) return;
 
-    public void AddItem(InventoryItem item) {
-        if (!item.ItemData) return;
-        if (item.ItemData.CanStack) {
-            var inventoryItem = items.FirstOrDefault(x => x.ItemData.Name == item.ItemData.Name);
-            if (inventoryItem != null) {
-                inventoryItem.count += item.count;
+        var inventoryItem = new InventoryItem {itemData = item.itemData, count = item.count};
+        if (item.itemData.CanStack) {
+            var duplicateItem = items.FirstOrDefault(x => x.itemData.Name == item.itemData.Name);
+            if (duplicateItem != null) {
+                duplicateItem.count += item.count;
             } else {
-                items.Add(item);
+                items.Add(inventoryItem);
             }
         } else {
-            items.Add(item);
+            items.Add(inventoryItem);
         }
     }
 
@@ -47,18 +45,36 @@ public class Inventory : MonoBehaviour {
 
         sb.AppendLine("Current Items");
         foreach (var item in items) {
-            sb.AppendLine($"Item: {item.ItemData.Name}, Count: {item.count}");
+            sb.AppendLine($"Item: {item.itemData.Name}, Count: {item.count}");
         }
 
         return sb.ToString();
     }
 
-    // public void RemoveItem() {
+    public GameObject GetItem(int index) {
+        if (index < items.Count) {
+            return PrefabManager.Instance.GetItem(items[index].itemData);
+        }
+        return null;
+    }
 
-    // }
+    public bool RemoveItem(ItemData itemData) {
+        if (!itemData.CanStack) return false;
+        var item = items.FirstOrDefault(x => x.itemData.Name == itemData.Name);
+        
+        if (item == null) return false;
+        item.count--;
+        
+        if (item.count <= 0) {
+            items.Remove(item);
+            return true;
+        }
+
+        return false;
+    }
 }
 
 public class InventoryItem {
-    public int count = 0;
-    public ItemData ItemData;
+    public ItemData itemData;
+    public int count;
 }

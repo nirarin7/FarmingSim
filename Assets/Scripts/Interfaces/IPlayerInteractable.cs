@@ -3,9 +3,9 @@
 
     public interface IPlayerInteractable {
 
-        void PlayerInteract(GameObject gameObject);
+        bool PlayerInteract(GameObject gameObject);
 
-        void PlayerInteract();
+        bool PlayerInteract();
 
 
 
